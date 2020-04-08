@@ -24,6 +24,9 @@ for camId in tqdm(camIds):
         output_path = f"annotations/{camId}/{image}.json"
         if os.path.isfile(output_path): # skip done
             continue
-        detected_image_array, detections = detector.detectCustomObjectsFromImage(output_type="array", custom_objects=custom_objects, input_image=image_path, minimum_percentage_probability=30)
-        with open(output_path, "w") as f:
-            json.dump(detections, f)
+        try:
+            detected_image_array, detections = detector.detectCustomObjectsFromImage(output_type="array", custom_objects=custom_objects, input_image=image_path, minimum_percentage_probability=30)
+            with open(output_path, "w") as f:
+                json.dump(detections, f)
+        except Exception as e:
+            print(image_path, e)
