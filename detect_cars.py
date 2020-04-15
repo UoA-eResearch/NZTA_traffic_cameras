@@ -3,6 +3,7 @@
 from imageai.Detection import ObjectDetection
 import os
 import json
+import sys
 from tqdm.auto import tqdm
 
 detector = ObjectDetection()
@@ -12,7 +13,12 @@ detector.loadModel()
 print("Detector ready")
 custom_objects = detector.CustomObjects(car=True, motorcycle=True, bus=True, truck=True)
 
-camIds = os.listdir("images")
+if len(sys.argv) > 1:
+    camIds = sys.argv[1:]
+else:
+    camIds = os.listdir("images")
+print(camIds)
+
 
 for camId in tqdm(camIds):
     os.makedirs(f"annotations/{camId}", exist_ok = True)
