@@ -63,8 +63,16 @@
                     "vehicles": 1075
                 },
                 "2020-04-18": {
-                    "n_images": 272,
-                    "vehicles": 167
+                    "n_images": 1434,
+                    "vehicles": 737
+                },
+                "2020-04-19": {
+                    "n_images": 1440,
+                    "vehicles": 980
+                },
+                "2020-04-20": {
+                    "n_images": 289,
+                    "vehicles": 356
                 }
             },
             "geometry": {
@@ -181,8 +189,12 @@
                     "vehicles": 120
                 },
                 "2020-04-19": {
-                    "n_images": 1184,
-                    "vehicles": 149
+                    "n_images": 1440,
+                    "vehicles": 281
+                },
+                "2020-04-20": {
+                    "n_images": 254,
+                    "vehicles": 84
                 }
             },
             "geometry": {
@@ -299,8 +311,12 @@
                     "vehicles": 474
                 },
                 "2020-04-19": {
-                    "n_images": 1184,
-                    "vehicles": 365
+                    "n_images": 1440,
+                    "vehicles": 528
+                },
+                "2020-04-20": {
+                    "n_images": 255,
+                    "vehicles": 359
                 }
             },
             "geometry": {
@@ -417,8 +433,12 @@
                     "vehicles": 1001
                 },
                 "2020-04-19": {
-                    "n_images": 1184,
-                    "vehicles": 922
+                    "n_images": 1440,
+                    "vehicles": 1508
+                },
+                "2020-04-20": {
+                    "n_images": 257,
+                    "vehicles": 741
                 }
             },
             "geometry": {
@@ -535,8 +555,12 @@
                     "vehicles": 1499
                 },
                 "2020-04-19": {
-                    "n_images": 1197,
-                    "vehicles": 765
+                    "n_images": 1440,
+                    "vehicles": 829
+                },
+                "2020-04-20": {
+                    "n_images": 257,
+                    "vehicles": 130
                 }
             },
             "geometry": {
@@ -649,8 +673,16 @@
                     "vehicles": 789
                 },
                 "2020-04-18": {
-                    "n_images": 509,
-                    "vehicles": 269
+                    "n_images": 1439,
+                    "vehicles": 415
+                },
+                "2020-04-19": {
+                    "n_images": 1365,
+                    "vehicles": 654
+                },
+                "2020-04-20": {
+                    "n_images": 294,
+                    "vehicles": 441
                 }
             },
             "geometry": {
@@ -759,16 +791,20 @@
                     "vehicles": 756
                 },
                 "2020-04-17": {
-                    "n_images": 1417,
-                    "vehicles": 540
+                    "n_images": 1440,
+                    "vehicles": 554
                 },
                 "2020-04-18": {
-                    "n_images": 811,
-                    "vehicles": 184
+                    "n_images": 1439,
+                    "vehicles": 355
                 },
                 "2020-04-19": {
-                    "n_images": 800,
-                    "vehicles": 238
+                    "n_images": 1440,
+                    "vehicles": 486
+                },
+                "2020-04-20": {
+                    "n_images": 282,
+                    "vehicles": 308
                 }
             },
             "geometry": {
@@ -885,8 +921,12 @@
                     "vehicles": 1738
                 },
                 "2020-04-19": {
-                    "n_images": 1318,
-                    "vehicles": 1661
+                    "n_images": 1440,
+                    "vehicles": 1841
+                },
+                "2020-04-20": {
+                    "n_images": 277,
+                    "vehicles": 632
                 }
             },
             "geometry": {
@@ -1003,8 +1043,12 @@
                     "vehicles": 550
                 },
                 "2020-04-19": {
-                    "n_images": 1324,
-                    "vehicles": 567
+                    "n_images": 1440,
+                    "vehicles": 727
+                },
+                "2020-04-20": {
+                    "n_images": 277,
+                    "vehicles": 344
                 }
             },
             "geometry": {
@@ -1121,8 +1165,12 @@
                     "vehicles": 547
                 },
                 "2020-04-19": {
-                    "n_images": 1324,
-                    "vehicles": 630
+                    "n_images": 1440,
+                    "vehicles": 797
+                },
+                "2020-04-20": {
+                    "n_images": 278,
+                    "vehicles": 478
                 }
             },
             "geometry": {
@@ -1239,8 +1287,12 @@
                     "vehicles": 524
                 },
                 "2020-04-19": {
-                    "n_images": 1329,
-                    "vehicles": 575
+                    "n_images": 1440,
+                    "vehicles": 710
+                },
+                "2020-04-20": {
+                    "n_images": 278,
+                    "vehicles": 425
                 }
             },
             "geometry": {
@@ -1357,8 +1409,12 @@
                     "vehicles": 800
                 },
                 "2020-04-19": {
-                    "n_images": 374,
-                    "vehicles": 501
+                    "n_images": 1440,
+                    "vehicles": 1301
+                },
+                "2020-04-20": {
+                    "n_images": 110,
+                    "vehicles": 269
                 }
             },
             "geometry": {
@@ -1475,8 +1531,12 @@
                     "vehicles": 224
                 },
                 "2020-04-19": {
-                    "n_images": 378,
-                    "vehicles": 198
+                    "n_images": 1439,
+                    "vehicles": 508
+                },
+                "2020-04-20": {
+                    "n_images": 111,
+                    "vehicles": 89
                 }
             },
             "geometry": {
@@ -1593,8 +1653,12 @@
                     "vehicles": 258
                 },
                 "2020-04-19": {
-                    "n_images": 378,
-                    "vehicles": 167
+                    "n_images": 1440,
+                    "vehicles": 357
+                },
+                "2020-04-20": {
+                    "n_images": 111,
+                    "vehicles": 101
                 }
             },
             "geometry": {
@@ -1711,8 +1775,12 @@
                     "vehicles": 1949
                 },
                 "2020-04-19": {
-                    "n_images": 392,
-                    "vehicles": 604
+                    "n_images": 1440,
+                    "vehicles": 1079
+                },
+                "2020-04-20": {
+                    "n_images": 117,
+                    "vehicles": 175
                 }
             },
             "geometry": {
@@ -1829,8 +1897,12 @@
                     "vehicles": 525
                 },
                 "2020-04-19": {
-                    "n_images": 409,
-                    "vehicles": 393
+                    "n_images": 1440,
+                    "vehicles": 857
+                },
+                "2020-04-20": {
+                    "n_images": 120,
+                    "vehicles": 302
                 }
             },
             "geometry": {
@@ -1947,8 +2019,12 @@
                     "vehicles": 1108
                 },
                 "2020-04-19": {
-                    "n_images": 761,
-                    "vehicles": 498
+                    "n_images": 1439,
+                    "vehicles": 826
+                },
+                "2020-04-20": {
+                    "n_images": 187,
+                    "vehicles": 322
                 }
             },
             "geometry": {
@@ -2065,8 +2141,12 @@
                     "vehicles": 263
                 },
                 "2020-04-19": {
-                    "n_images": 763,
-                    "vehicles": 166
+                    "n_images": 1440,
+                    "vehicles": 252
+                },
+                "2020-04-20": {
+                    "n_images": 187,
+                    "vehicles": 82
                 }
             },
             "geometry": {
@@ -2183,8 +2263,12 @@
                     "vehicles": 596
                 },
                 "2020-04-19": {
-                    "n_images": 413,
-                    "vehicles": 240
+                    "n_images": 1440,
+                    "vehicles": 474
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 146
                 }
             },
             "geometry": {
@@ -2301,8 +2385,12 @@
                     "vehicles": 100
                 },
                 "2020-04-19": {
-                    "n_images": 418,
-                    "vehicles": 70
+                    "n_images": 1439,
+                    "vehicles": 141
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 47
                 }
             },
             "geometry": {
@@ -2419,8 +2507,12 @@
                     "vehicles": 306
                 },
                 "2020-04-19": {
-                    "n_images": 420,
-                    "vehicles": 169
+                    "n_images": 1440,
+                    "vehicles": 368
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 85
                 }
             },
             "geometry": {
@@ -2537,8 +2629,12 @@
                     "vehicles": 313
                 },
                 "2020-04-19": {
-                    "n_images": 421,
-                    "vehicles": 143
+                    "n_images": 1440,
+                    "vehicles": 295
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 30
                 }
             },
             "geometry": {
@@ -2655,8 +2751,12 @@
                     "vehicles": 87
                 },
                 "2020-04-19": {
-                    "n_images": 426,
-                    "vehicles": 76
+                    "n_images": 1440,
+                    "vehicles": 146
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 26
                 }
             },
             "geometry": {
@@ -2773,8 +2873,12 @@
                     "vehicles": 263
                 },
                 "2020-04-19": {
-                    "n_images": 434,
-                    "vehicles": 170
+                    "n_images": 1440,
+                    "vehicles": 302
+                },
+                "2020-04-20": {
+                    "n_images": 123,
+                    "vehicles": 88
                 }
             },
             "geometry": {
@@ -2891,8 +2995,12 @@
                     "vehicles": 274
                 },
                 "2020-04-19": {
-                    "n_images": 440,
-                    "vehicles": 176
+                    "n_images": 1440,
+                    "vehicles": 536
+                },
+                "2020-04-20": {
+                    "n_images": 127,
+                    "vehicles": 87
                 }
             },
             "geometry": {
@@ -3009,8 +3117,12 @@
                     "vehicles": 744
                 },
                 "2020-04-19": {
-                    "n_images": 454,
-                    "vehicles": 440
+                    "n_images": 1440,
+                    "vehicles": 873
+                },
+                "2020-04-20": {
+                    "n_images": 129,
+                    "vehicles": 220
                 }
             },
             "geometry": {
@@ -3123,12 +3235,16 @@
                     "vehicles": 733
                 },
                 "2020-04-18": {
-                    "n_images": 412,
-                    "vehicles": 108
+                    "n_images": 1439,
+                    "vehicles": 392
                 },
                 "2020-04-19": {
-                    "n_images": 375,
-                    "vehicles": 89
+                    "n_images": 1440,
+                    "vehicles": 362
+                },
+                "2020-04-20": {
+                    "n_images": 283,
+                    "vehicles": 289
                 }
             },
             "geometry": {
@@ -3245,8 +3361,12 @@
                     "vehicles": 211
                 },
                 "2020-04-19": {
-                    "n_images": 578,
-                    "vehicles": 139
+                    "n_images": 1439,
+                    "vehicles": 258
+                },
+                "2020-04-20": {
+                    "n_images": 154,
+                    "vehicles": 103
                 }
             },
             "geometry": {
@@ -3363,8 +3483,12 @@
                     "vehicles": 452
                 },
                 "2020-04-19": {
-                    "n_images": 589,
-                    "vehicles": 260
+                    "n_images": 1440,
+                    "vehicles": 443
+                },
+                "2020-04-20": {
+                    "n_images": 154,
+                    "vehicles": 179
                 }
             },
             "geometry": {
@@ -3481,8 +3605,12 @@
                     "vehicles": 435
                 },
                 "2020-04-19": {
-                    "n_images": 591,
-                    "vehicles": 291
+                    "n_images": 1440,
+                    "vehicles": 420
+                },
+                "2020-04-20": {
+                    "n_images": 156,
+                    "vehicles": 178
                 }
             },
             "geometry": {
@@ -3599,8 +3727,12 @@
                     "vehicles": 456
                 },
                 "2020-04-19": {
-                    "n_images": 598,
-                    "vehicles": 237
+                    "n_images": 1440,
+                    "vehicles": 450
+                },
+                "2020-04-20": {
+                    "n_images": 156,
+                    "vehicles": 178
                 }
             },
             "geometry": {
@@ -3717,8 +3849,12 @@
                     "vehicles": 210
                 },
                 "2020-04-19": {
-                    "n_images": 347,
-                    "vehicles": 77
+                    "n_images": 1440,
+                    "vehicles": 217
+                },
+                "2020-04-20": {
+                    "n_images": 152,
+                    "vehicles": 61
                 }
             },
             "geometry": {
@@ -3835,8 +3971,12 @@
                     "vehicles": 1459
                 },
                 "2020-04-19": {
-                    "n_images": 480,
-                    "vehicles": 948
+                    "n_images": 1440,
+                    "vehicles": 2593
+                },
+                "2020-04-20": {
+                    "n_images": 133,
+                    "vehicles": 847
                 }
             },
             "geometry": {
@@ -3953,8 +4093,12 @@
                     "vehicles": 577
                 },
                 "2020-04-19": {
-                    "n_images": 909,
-                    "vehicles": 361
+                    "n_images": 1440,
+                    "vehicles": 859
+                },
+                "2020-04-20": {
+                    "n_images": 213,
+                    "vehicles": 332
                 }
             },
             "geometry": {
@@ -4071,8 +4215,12 @@
                     "vehicles": 391
                 },
                 "2020-04-19": {
-                    "n_images": 979,
-                    "vehicles": 209
+                    "n_images": 1440,
+                    "vehicles": 532
+                },
+                "2020-04-20": {
+                    "n_images": 222,
+                    "vehicles": 294
                 }
             },
             "geometry": {
@@ -4189,8 +4337,12 @@
                     "vehicles": 326
                 },
                 "2020-04-19": {
-                    "n_images": 979,
-                    "vehicles": 261
+                    "n_images": 1440,
+                    "vehicles": 556
+                },
+                "2020-04-20": {
+                    "n_images": 224,
+                    "vehicles": 295
                 }
             },
             "geometry": {
@@ -4307,8 +4459,12 @@
                     "vehicles": 139
                 },
                 "2020-04-19": {
-                    "n_images": 577,
-                    "vehicles": 31
+                    "n_images": 1440,
+                    "vehicles": 93
+                },
+                "2020-04-20": {
+                    "n_images": 153,
+                    "vehicles": 21
                 }
             },
             "geometry": {
@@ -4425,8 +4581,12 @@
                     "vehicles": 120
                 },
                 "2020-04-19": {
-                    "n_images": 996,
-                    "vehicles": 121
+                    "n_images": 1440,
+                    "vehicles": 257
+                },
+                "2020-04-20": {
+                    "n_images": 226,
+                    "vehicles": 147
                 }
             },
             "geometry": {
@@ -4543,8 +4703,12 @@
                     "vehicles": 125
                 },
                 "2020-04-19": {
-                    "n_images": 1052,
-                    "vehicles": 64
+                    "n_images": 1440,
+                    "vehicles": 218
+                },
+                "2020-04-20": {
+                    "n_images": 233,
+                    "vehicles": 112
                 }
             },
             "geometry": {
@@ -4661,8 +4825,12 @@
                     "vehicles": 368
                 },
                 "2020-04-19": {
-                    "n_images": 1055,
-                    "vehicles": 257
+                    "n_images": 1440,
+                    "vehicles": 641
+                },
+                "2020-04-20": {
+                    "n_images": 236,
+                    "vehicles": 344
                 }
             },
             "geometry": {
@@ -4779,8 +4947,12 @@
                     "vehicles": 132
                 },
                 "2020-04-19": {
-                    "n_images": 1056,
-                    "vehicles": 77
+                    "n_images": 1438,
+                    "vehicles": 151
+                },
+                "2020-04-20": {
+                    "n_images": 237,
+                    "vehicles": 55
                 }
             },
             "geometry": {
@@ -4897,8 +5069,12 @@
                     "vehicles": 60
                 },
                 "2020-04-19": {
-                    "n_images": 1058,
-                    "vehicles": 49
+                    "n_images": 1440,
+                    "vehicles": 134
+                },
+                "2020-04-20": {
+                    "n_images": 237,
+                    "vehicles": 43
                 }
             },
             "geometry": {
@@ -5015,8 +5191,12 @@
                     "vehicles": 716
                 },
                 "2020-04-19": {
-                    "n_images": 574,
-                    "vehicles": 442
+                    "n_images": 1439,
+                    "vehicles": 880
+                },
+                "2020-04-20": {
+                    "n_images": 151,
+                    "vehicles": 344
                 }
             },
             "geometry": {
@@ -5133,8 +5313,12 @@
                     "vehicles": 641
                 },
                 "2020-04-19": {
-                    "n_images": 577,
-                    "vehicles": 376
+                    "n_images": 1440,
+                    "vehicles": 921
+                },
+                "2020-04-20": {
+                    "n_images": 152,
+                    "vehicles": 280
                 }
             },
             "geometry": {
@@ -5251,8 +5435,12 @@
                     "vehicles": 313
                 },
                 "2020-04-19": {
-                    "n_images": 1012,
-                    "vehicles": 304
+                    "n_images": 1440,
+                    "vehicles": 749
+                },
+                "2020-04-20": {
+                    "n_images": 228,
+                    "vehicles": 237
                 }
             },
             "geometry": {
@@ -5369,8 +5557,12 @@
                     "vehicles": 624
                 },
                 "2020-04-19": {
-                    "n_images": 613,
-                    "vehicles": 352
+                    "n_images": 1440,
+                    "vehicles": 1189
+                },
+                "2020-04-20": {
+                    "n_images": 159,
+                    "vehicles": 426
                 }
             },
             "geometry": {
@@ -5487,8 +5679,12 @@
                     "vehicles": 703
                 },
                 "2020-04-19": {
-                    "n_images": 78,
-                    "vehicles": 54
+                    "n_images": 1440,
+                    "vehicles": 1191
+                },
+                "2020-04-20": {
+                    "n_images": 307,
+                    "vehicles": 700
                 }
             },
             "geometry": {
@@ -5605,8 +5801,12 @@
                     "vehicles": 187
                 },
                 "2020-04-19": {
-                    "n_images": 114,
-                    "vehicles": 33
+                    "n_images": 1440,
+                    "vehicles": 337
+                },
+                "2020-04-20": {
+                    "n_images": 308,
+                    "vehicles": 289
                 }
             },
             "geometry": {
@@ -5723,8 +5923,12 @@
                     "vehicles": 448
                 },
                 "2020-04-19": {
-                    "n_images": 347,
-                    "vehicles": 70
+                    "n_images": 1440,
+                    "vehicles": 501
+                },
+                "2020-04-20": {
+                    "n_images": 310,
+                    "vehicles": 210
                 }
             },
             "geometry": {
@@ -5841,8 +6045,12 @@
                     "vehicles": 884
                 },
                 "2020-04-19": {
-                    "n_images": 348,
-                    "vehicles": 308
+                    "n_images": 1439,
+                    "vehicles": 1464
+                },
+                "2020-04-20": {
+                    "n_images": 394,
+                    "vehicles": 688
                 }
             },
             "geometry": {
@@ -5953,6 +6161,10 @@
                 "2020-04-17": {
                     "n_images": 16,
                     "vehicles": 99
+                },
+                "2020-04-20": {
+                    "n_images": 475,
+                    "vehicles": 377
                 }
             },
             "geometry": {
@@ -6063,6 +6275,10 @@
                 "2020-04-17": {
                     "n_images": 16,
                     "vehicles": 24
+                },
+                "2020-04-20": {
+                    "n_images": 464,
+                    "vehicles": 401
                 }
             },
             "geometry": {
@@ -6173,6 +6389,10 @@
                 "2020-04-17": {
                     "n_images": 16,
                     "vehicles": 39
+                },
+                "2020-04-20": {
+                    "n_images": 574,
+                    "vehicles": 376
                 }
             },
             "geometry": {
@@ -6283,6 +6503,10 @@
                 "2020-04-17": {
                     "n_images": 16,
                     "vehicles": 62
+                },
+                "2020-04-20": {
+                    "n_images": 476,
+                    "vehicles": 648
                 }
             },
             "geometry": {
@@ -6393,6 +6617,10 @@
                 "2020-04-17": {
                     "n_images": 16,
                     "vehicles": 43
+                },
+                "2020-04-20": {
+                    "n_images": 526,
+                    "vehicles": 460
                 }
             },
             "geometry": {
@@ -6509,8 +6737,12 @@
                     "vehicles": 573
                 },
                 "2020-04-19": {
-                    "n_images": 370,
-                    "vehicles": 245
+                    "n_images": 1439,
+                    "vehicles": 907
+                },
+                "2020-04-20": {
+                    "n_images": 111,
+                    "vehicles": 144
                 }
             },
             "geometry": {
@@ -6627,8 +6859,12 @@
                     "vehicles": 330
                 },
                 "2020-04-19": {
-                    "n_images": 371,
-                    "vehicles": 232
+                    "n_images": 1440,
+                    "vehicles": 646
+                },
+                "2020-04-20": {
+                    "n_images": 110,
+                    "vehicles": 184
                 }
             },
             "geometry": {
@@ -6745,8 +6981,12 @@
                     "vehicles": 560
                 },
                 "2020-04-19": {
-                    "n_images": 1244,
-                    "vehicles": 544
+                    "n_images": 1438,
+                    "vehicles": 731
+                },
+                "2020-04-20": {
+                    "n_images": 265,
+                    "vehicles": 404
                 }
             },
             "geometry": {
@@ -6863,8 +7103,12 @@
                     "vehicles": 319
                 },
                 "2020-04-19": {
-                    "n_images": 1249,
-                    "vehicles": 263
+                    "n_images": 1440,
+                    "vehicles": 429
+                },
+                "2020-04-20": {
+                    "n_images": 266,
+                    "vehicles": 315
                 }
             },
             "geometry": {
@@ -6981,8 +7225,12 @@
                     "vehicles": 230
                 },
                 "2020-04-19": {
-                    "n_images": 1253,
-                    "vehicles": 276
+                    "n_images": 1440,
+                    "vehicles": 345
+                },
+                "2020-04-20": {
+                    "n_images": 266,
+                    "vehicles": 235
                 }
             },
             "geometry": {
@@ -7099,8 +7347,12 @@
                     "vehicles": 161
                 },
                 "2020-04-19": {
-                    "n_images": 774,
-                    "vehicles": 64
+                    "n_images": 1440,
+                    "vehicles": 285
+                },
+                "2020-04-20": {
+                    "n_images": 188,
+                    "vehicles": 173
                 }
             },
             "geometry": {
@@ -7217,8 +7469,12 @@
                     "vehicles": 388
                 },
                 "2020-04-19": {
-                    "n_images": 782,
-                    "vehicles": 165
+                    "n_images": 1439,
+                    "vehicles": 377
+                },
+                "2020-04-20": {
+                    "n_images": 193,
+                    "vehicles": 129
                 }
             },
             "geometry": {
@@ -7335,8 +7591,12 @@
                     "vehicles": 56
                 },
                 "2020-04-19": {
-                    "n_images": 952,
-                    "vehicles": 70
+                    "n_images": 1440,
+                    "vehicles": 145
+                },
+                "2020-04-20": {
+                    "n_images": 219,
+                    "vehicles": 113
                 }
             },
             "geometry": {
@@ -7453,8 +7713,12 @@
                     "vehicles": 1630
                 },
                 "2020-04-19": {
-                    "n_images": 766,
-                    "vehicles": 1488
+                    "n_images": 1439,
+                    "vehicles": 2553
+                },
+                "2020-04-20": {
+                    "n_images": 188,
+                    "vehicles": 711
                 }
             },
             "geometry": {
@@ -7571,8 +7835,12 @@
                     "vehicles": 801
                 },
                 "2020-04-19": {
-                    "n_images": 774,
-                    "vehicles": 749
+                    "n_images": 1440,
+                    "vehicles": 1222
+                },
+                "2020-04-20": {
+                    "n_images": 189,
+                    "vehicles": 530
                 }
             },
             "geometry": {
@@ -7689,8 +7957,12 @@
                     "vehicles": 668
                 },
                 "2020-04-19": {
-                    "n_images": 460,
-                    "vehicles": 343
+                    "n_images": 1440,
+                    "vehicles": 764
+                },
+                "2020-04-20": {
+                    "n_images": 130,
+                    "vehicles": 157
                 }
             },
             "geometry": {
@@ -7807,8 +8079,12 @@
                     "vehicles": 368
                 },
                 "2020-04-19": {
-                    "n_images": 468,
-                    "vehicles": 236
+                    "n_images": 1440,
+                    "vehicles": 576
+                },
+                "2020-04-20": {
+                    "n_images": 130,
+                    "vehicles": 190
                 }
             },
             "geometry": {
@@ -7925,8 +8201,12 @@
                     "vehicles": 616
                 },
                 "2020-04-19": {
-                    "n_images": 472,
-                    "vehicles": 339
+                    "n_images": 1439,
+                    "vehicles": 762
+                },
+                "2020-04-20": {
+                    "n_images": 131,
+                    "vehicles": 224
                 }
             },
             "geometry": {
@@ -8043,8 +8323,12 @@
                     "vehicles": 755
                 },
                 "2020-04-19": {
-                    "n_images": 290,
-                    "vehicles": 405
+                    "n_images": 905,
+                    "vehicles": 1091
+                },
+                "2020-04-20": {
+                    "n_images": 88,
+                    "vehicles": 304
                 }
             },
             "geometry": {
@@ -8161,8 +8445,12 @@
                     "vehicles": 159
                 },
                 "2020-04-19": {
-                    "n_images": 480,
-                    "vehicles": 88
+                    "n_images": 1440,
+                    "vehicles": 152
+                },
+                "2020-04-20": {
+                    "n_images": 132,
+                    "vehicles": 61
                 }
             },
             "geometry": {
@@ -8279,8 +8567,12 @@
                     "vehicles": 151
                 },
                 "2020-04-19": {
-                    "n_images": 499,
-                    "vehicles": 102
+                    "n_images": 1439,
+                    "vehicles": 237
+                },
+                "2020-04-20": {
+                    "n_images": 139,
+                    "vehicles": 120
                 }
             },
             "geometry": {
@@ -8397,8 +8689,12 @@
                     "vehicles": 1238
                 },
                 "2020-04-19": {
-                    "n_images": 294,
-                    "vehicles": 416
+                    "n_images": 896,
+                    "vehicles": 1434
+                },
+                "2020-04-20": {
+                    "n_images": 59,
+                    "vehicles": 187
                 }
             },
             "geometry": {
@@ -8515,8 +8811,12 @@
                     "vehicles": 603
                 },
                 "2020-04-19": {
-                    "n_images": 514,
-                    "vehicles": 259
+                    "n_images": 1439,
+                    "vehicles": 944
+                },
+                "2020-04-20": {
+                    "n_images": 142,
+                    "vehicles": 209
                 }
             },
             "geometry": {
@@ -8633,8 +8933,12 @@
                     "vehicles": 2218
                 },
                 "2020-04-19": {
-                    "n_images": 519,
-                    "vehicles": 1225
+                    "n_images": 1439,
+                    "vehicles": 3358
+                },
+                "2020-04-20": {
+                    "n_images": 142,
+                    "vehicles": 1002
                 }
             },
             "geometry": {
@@ -8751,8 +9055,12 @@
                     "vehicles": 175
                 },
                 "2020-04-19": {
-                    "n_images": 523,
-                    "vehicles": 109
+                    "n_images": 1440,
+                    "vehicles": 221
+                },
+                "2020-04-20": {
+                    "n_images": 142,
+                    "vehicles": 77
                 }
             },
             "geometry": {
@@ -8869,8 +9177,12 @@
                     "vehicles": 579
                 },
                 "2020-04-19": {
-                    "n_images": 524,
-                    "vehicles": 379
+                    "n_images": 1440,
+                    "vehicles": 871
+                },
+                "2020-04-20": {
+                    "n_images": 142,
+                    "vehicles": 310
                 }
             },
             "geometry": {
@@ -8987,8 +9299,12 @@
                     "vehicles": 784
                 },
                 "2020-04-19": {
-                    "n_images": 532,
-                    "vehicles": 443
+                    "n_images": 1440,
+                    "vehicles": 973
+                },
+                "2020-04-20": {
+                    "n_images": 143,
+                    "vehicles": 317
                 }
             },
             "geometry": {
@@ -9105,8 +9421,12 @@
                     "vehicles": 517
                 },
                 "2020-04-19": {
-                    "n_images": 311,
-                    "vehicles": 216
+                    "n_images": 954,
+                    "vehicles": 650
+                },
+                "2020-04-20": {
+                    "n_images": 32,
+                    "vehicles": 62
                 }
             },
             "geometry": {
@@ -9223,8 +9543,12 @@
                     "vehicles": 550
                 },
                 "2020-04-19": {
-                    "n_images": 542,
-                    "vehicles": 301
+                    "n_images": 1439,
+                    "vehicles": 622
+                },
+                "2020-04-20": {
+                    "n_images": 148,
+                    "vehicles": 281
                 }
             },
             "geometry": {
@@ -9341,8 +9665,12 @@
                     "vehicles": 349
                 },
                 "2020-04-19": {
-                    "n_images": 551,
-                    "vehicles": 180
+                    "n_images": 1440,
+                    "vehicles": 468
+                },
+                "2020-04-20": {
+                    "n_images": 147,
+                    "vehicles": 206
                 }
             },
             "geometry": {
@@ -9459,8 +9787,12 @@
                     "vehicles": 402
                 },
                 "2020-04-19": {
-                    "n_images": 571,
-                    "vehicles": 299
+                    "n_images": 1439,
+                    "vehicles": 830
+                },
+                "2020-04-20": {
+                    "n_images": 150,
+                    "vehicles": 320
                 }
             },
             "geometry": {
@@ -9577,8 +9909,12 @@
                     "vehicles": 693
                 },
                 "2020-04-19": {
-                    "n_images": 800,
-                    "vehicles": 998
+                    "n_images": 1369,
+                    "vehicles": 1255
+                },
+                "2020-04-20": {
+                    "n_images": 204,
+                    "vehicles": 178
                 }
             },
             "geometry": {
@@ -9695,8 +10031,12 @@
                     "vehicles": 732
                 },
                 "2020-04-19": {
-                    "n_images": 860,
-                    "vehicles": 569
+                    "n_images": 1438,
+                    "vehicles": 1059
+                },
+                "2020-04-20": {
+                    "n_images": 204,
+                    "vehicles": 490
                 }
             },
             "geometry": {
@@ -9813,8 +10153,12 @@
                     "vehicles": 340
                 },
                 "2020-04-19": {
-                    "n_images": 867,
-                    "vehicles": 581
+                    "n_images": 1438,
+                    "vehicles": 924
+                },
+                "2020-04-20": {
+                    "n_images": 204,
+                    "vehicles": 288
                 }
             },
             "geometry": {
@@ -9931,8 +10275,12 @@
                     "vehicles": 394
                 },
                 "2020-04-19": {
-                    "n_images": 950,
-                    "vehicles": 285
+                    "n_images": 1440,
+                    "vehicles": 599
+                },
+                "2020-04-20": {
+                    "n_images": 219,
+                    "vehicles": 198
                 }
             },
             "geometry": {
@@ -10049,8 +10397,12 @@
                     "vehicles": 670
                 },
                 "2020-04-19": {
-                    "n_images": 1075,
-                    "vehicles": 468
+                    "n_images": 1439,
+                    "vehicles": 1183
+                },
+                "2020-04-20": {
+                    "n_images": 240,
+                    "vehicles": 561
                 }
             },
             "geometry": {
@@ -10167,8 +10519,12 @@
                     "vehicles": 274
                 },
                 "2020-04-19": {
-                    "n_images": 581,
-                    "vehicles": 135
+                    "n_images": 720,
+                    "vehicles": 309
+                },
+                "2020-04-20": {
+                    "n_images": 126,
+                    "vehicles": 68
                 }
             },
             "geometry": {
@@ -10403,8 +10759,12 @@
                     "vehicles": 176
                 },
                 "2020-04-19": {
-                    "n_images": 581,
-                    "vehicles": 141
+                    "n_images": 720,
+                    "vehicles": 286
+                },
+                "2020-04-20": {
+                    "n_images": 126,
+                    "vehicles": 229
                 }
             },
             "geometry": {
@@ -10521,8 +10881,12 @@
                     "vehicles": 727
                 },
                 "2020-04-19": {
-                    "n_images": 587,
-                    "vehicles": 416
+                    "n_images": 718,
+                    "vehicles": 742
+                },
+                "2020-04-20": {
+                    "n_images": 126,
+                    "vehicles": 288
                 }
             },
             "geometry": {
@@ -10635,8 +10999,16 @@
                     "vehicles": 2220
                 },
                 "2020-04-18": {
-                    "n_images": 630,
-                    "vehicles": 869
+                    "n_images": 1435,
+                    "vehicles": 2370
+                },
+                "2020-04-19": {
+                    "n_images": 1438,
+                    "vehicles": 2659
+                },
+                "2020-04-20": {
+                    "n_images": 296,
+                    "vehicles": 514
                 }
             },
             "geometry": {
@@ -10749,8 +11121,16 @@
                     "vehicles": 847
                 },
                 "2020-04-18": {
-                    "n_images": 641,
-                    "vehicles": 350
+                    "n_images": 1435,
+                    "vehicles": 463
+                },
+                "2020-04-19": {
+                    "n_images": 1434,
+                    "vehicles": 578
+                },
+                "2020-04-20": {
+                    "n_images": 296,
+                    "vehicles": 358
                 }
             },
             "geometry": {
@@ -10867,8 +11247,12 @@
                     "vehicles": 1261
                 },
                 "2020-04-19": {
-                    "n_images": 1082,
-                    "vehicles": 969
+                    "n_images": 1432,
+                    "vehicles": 1510
+                },
+                "2020-04-20": {
+                    "n_images": 240,
+                    "vehicles": 443
                 }
             },
             "geometry": {
@@ -10985,8 +11369,12 @@
                     "vehicles": 109
                 },
                 "2020-04-19": {
-                    "n_images": 1120,
-                    "vehicles": 99
+                    "n_images": 1439,
+                    "vehicles": 255
+                },
+                "2020-04-20": {
+                    "n_images": 244,
+                    "vehicles": 158
                 }
             },
             "geometry": {
@@ -11103,8 +11491,12 @@
                     "vehicles": 164
                 },
                 "2020-04-19": {
-                    "n_images": 1126,
-                    "vehicles": 169
+                    "n_images": 1437,
+                    "vehicles": 243
+                },
+                "2020-04-20": {
+                    "n_images": 246,
+                    "vehicles": 244
                 }
             },
             "geometry": {
@@ -11221,8 +11613,12 @@
                     "vehicles": 845
                 },
                 "2020-04-19": {
-                    "n_images": 1127,
-                    "vehicles": 838
+                    "n_images": 1431,
+                    "vehicles": 1366
+                },
+                "2020-04-20": {
+                    "n_images": 247,
+                    "vehicles": 558
                 }
             },
             "geometry": {
@@ -11339,8 +11735,12 @@
                     "vehicles": 50
                 },
                 "2020-04-19": {
-                    "n_images": 1131,
-                    "vehicles": 27
+                    "n_images": 1437,
+                    "vehicles": 85
+                },
+                "2020-04-20": {
+                    "n_images": 247,
+                    "vehicles": 45
                 }
             },
             "geometry": {
@@ -11457,8 +11857,12 @@
                     "vehicles": 204
                 },
                 "2020-04-19": {
-                    "n_images": 651,
-                    "vehicles": 121
+                    "n_images": 786,
+                    "vehicles": 208
+                },
+                "2020-04-20": {
+                    "n_images": 112,
+                    "vehicles": 77
                 }
             },
             "geometry": {
@@ -11575,8 +11979,12 @@
                     "vehicles": 963
                 },
                 "2020-04-19": {
-                    "n_images": 980,
-                    "vehicles": 665
+                    "n_images": 1423,
+                    "vehicles": 1131
+                },
+                "2020-04-20": {
+                    "n_images": 223,
+                    "vehicles": 335
                 }
             },
             "geometry": {
@@ -11693,8 +12101,12 @@
                     "vehicles": 673
                 },
                 "2020-04-19": {
-                    "n_images": 1072,
-                    "vehicles": 576
+                    "n_images": 1436,
+                    "vehicles": 760
+                },
+                "2020-04-20": {
+                    "n_images": 239,
+                    "vehicles": 496
                 }
             },
             "geometry": {
@@ -11790,8 +12202,12 @@
                     "vehicles": 1025
                 },
                 "2020-04-19": {
-                    "n_images": 1018,
-                    "vehicles": 669
+                    "n_images": 1437,
+                    "vehicles": 1079
+                },
+                "2020-04-20": {
+                    "n_images": 231,
+                    "vehicles": 568
                 }
             },
             "geometry": {
@@ -11887,8 +12303,12 @@
                     "vehicles": 1327
                 },
                 "2020-04-19": {
-                    "n_images": 976,
-                    "vehicles": 764
+                    "n_images": 1438,
+                    "vehicles": 1467
+                },
+                "2020-04-20": {
+                    "n_images": 221,
+                    "vehicles": 821
                 }
             },
             "geometry": {
@@ -12012,8 +12432,12 @@
                     "vehicles": 226
                 },
                 "2020-04-19": {
-                    "n_images": 899,
-                    "vehicles": 147
+                    "n_images": 1434,
+                    "vehicles": 331
+                },
+                "2020-04-20": {
+                    "n_images": 210,
+                    "vehicles": 148
                 }
             },
             "geometry": {
@@ -12125,8 +12549,12 @@
                     "vehicles": 166
                 },
                 "2020-04-19": {
-                    "n_images": 553,
-                    "vehicles": 88
+                    "n_images": 900,
+                    "vehicles": 261
+                },
+                "2020-04-20": {
+                    "n_images": 89,
+                    "vehicles": 81
                 }
             },
             "geometry": {
@@ -12239,8 +12667,16 @@
                     "vehicles": 711
                 },
                 "2020-04-18": {
-                    "n_images": 1115,
-                    "vehicles": 408
+                    "n_images": 1439,
+                    "vehicles": 472
+                },
+                "2020-04-19": {
+                    "n_images": 1439,
+                    "vehicles": 437
+                },
+                "2020-04-20": {
+                    "n_images": 304,
+                    "vehicles": 340
                 }
             },
             "geometry": {
@@ -12353,8 +12789,16 @@
                     "vehicles": 2016
                 },
                 "2020-04-18": {
-                    "n_images": 1085,
-                    "vehicles": 392
+                    "n_images": 1434,
+                    "vehicles": 545
+                },
+                "2020-04-19": {
+                    "n_images": 1439,
+                    "vehicles": 1074
+                },
+                "2020-04-20": {
+                    "n_images": 301,
+                    "vehicles": 1044
                 }
             },
             "geometry": {
@@ -12467,8 +12911,12 @@
                     "vehicles": 935
                 },
                 "2020-04-19": {
-                    "n_images": 1240,
-                    "vehicles": 706
+                    "n_images": 1437,
+                    "vehicles": 1119
+                },
+                "2020-04-20": {
+                    "n_images": 264,
+                    "vehicles": 277
                 }
             },
             "geometry": {
@@ -12585,8 +13033,12 @@
                     "vehicles": 305
                 },
                 "2020-04-19": {
-                    "n_images": 1408,
-                    "vehicles": 392
+                    "n_images": 1429,
+                    "vehicles": 405
+                },
+                "2020-04-20": {
+                    "n_images": 273,
+                    "vehicles": 465
                 }
             },
             "geometry": {
@@ -12703,8 +13155,12 @@
                     "vehicles": 3241
                 },
                 "2020-04-19": {
-                    "n_images": 1407,
-                    "vehicles": 3700
+                    "n_images": 1431,
+                    "vehicles": 3792
+                },
+                "2020-04-20": {
+                    "n_images": 273,
+                    "vehicles": 1538
                 }
             },
             "geometry": {
@@ -12821,8 +13277,12 @@
                     "vehicles": 2074
                 },
                 "2020-04-19": {
-                    "n_images": 1408,
-                    "vehicles": 3201
+                    "n_images": 1430,
+                    "vehicles": 3224
+                },
+                "2020-04-20": {
+                    "n_images": 273,
+                    "vehicles": 480
                 }
             },
             "geometry": {
@@ -12935,12 +13395,16 @@
                     "vehicles": 3913
                 },
                 "2020-04-18": {
-                    "n_images": 717,
-                    "vehicles": 1260
+                    "n_images": 1436,
+                    "vehicles": 1712
                 },
                 "2020-04-19": {
-                    "n_images": 209,
-                    "vehicles": 312
+                    "n_images": 1432,
+                    "vehicles": 1718
+                },
+                "2020-04-20": {
+                    "n_images": 277,
+                    "vehicles": 1408
                 }
             },
             "geometry": {
@@ -13057,8 +13521,12 @@
                     "vehicles": 41
                 },
                 "2020-04-19": {
-                    "n_images": 1252,
-                    "vehicles": 0
+                    "n_images": 1436,
+                    "vehicles": 3
+                },
+                "2020-04-20": {
+                    "n_images": 266,
+                    "vehicles": 4
                 }
             },
             "geometry": {
@@ -13175,8 +13643,12 @@
                     "vehicles": 10
                 },
                 "2020-04-19": {
-                    "n_images": 653,
-                    "vehicles": 8
+                    "n_images": 1438,
+                    "vehicles": 10
+                },
+                "2020-04-20": {
+                    "n_images": 168,
+                    "vehicles": 3
                 }
             },
             "geometry": {
@@ -13293,8 +13765,12 @@
                     "vehicles": 333
                 },
                 "2020-04-19": {
-                    "n_images": 910,
-                    "vehicles": 271
+                    "n_images": 1437,
+                    "vehicles": 530
+                },
+                "2020-04-20": {
+                    "n_images": 215,
+                    "vehicles": 253
                 }
             },
             "geometry": {
@@ -13411,8 +13887,12 @@
                     "vehicles": 2039
                 },
                 "2020-04-19": {
-                    "n_images": 931,
-                    "vehicles": 1350
+                    "n_images": 1437,
+                    "vehicles": 2276
+                },
+                "2020-04-20": {
+                    "n_images": 215,
+                    "vehicles": 745
                 }
             },
             "geometry": {
@@ -13529,8 +14009,12 @@
                     "vehicles": 1114
                 },
                 "2020-04-19": {
-                    "n_images": 933,
-                    "vehicles": 897
+                    "n_images": 1438,
+                    "vehicles": 1436
+                },
+                "2020-04-20": {
+                    "n_images": 214,
+                    "vehicles": 630
                 }
             },
             "geometry": {
@@ -13647,8 +14131,12 @@
                     "vehicles": 1070
                 },
                 "2020-04-19": {
-                    "n_images": 933,
-                    "vehicles": 809
+                    "n_images": 1438,
+                    "vehicles": 1735
+                },
+                "2020-04-20": {
+                    "n_images": 215,
+                    "vehicles": 839
                 }
             },
             "geometry": {
@@ -13765,8 +14253,12 @@
                     "vehicles": 406
                 },
                 "2020-04-19": {
-                    "n_images": 932,
-                    "vehicles": 248
+                    "n_images": 1433,
+                    "vehicles": 481
+                },
+                "2020-04-20": {
+                    "n_images": 216,
+                    "vehicles": 156
                 }
             },
             "geometry": {
@@ -13883,8 +14375,12 @@
                     "vehicles": 1194
                 },
                 "2020-04-19": {
-                    "n_images": 939,
-                    "vehicles": 774
+                    "n_images": 1439,
+                    "vehicles": 1479
+                },
+                "2020-04-20": {
+                    "n_images": 217,
+                    "vehicles": 241
                 }
             },
             "geometry": {
@@ -14001,8 +14497,12 @@
                     "vehicles": 387
                 },
                 "2020-04-19": {
-                    "n_images": 981,
-                    "vehicles": 34
+                    "n_images": 1439,
+                    "vehicles": 91
+                },
+                "2020-04-20": {
+                    "n_images": 222,
+                    "vehicles": 11
                 }
             },
             "geometry": {
@@ -14119,8 +14619,12 @@
                     "vehicles": 354
                 },
                 "2020-04-19": {
-                    "n_images": 932,
-                    "vehicles": 294
+                    "n_images": 1414,
+                    "vehicles": 531
+                },
+                "2020-04-20": {
+                    "n_images": 220,
+                    "vehicles": 223
                 }
             },
             "geometry": {
@@ -14237,8 +14741,12 @@
                     "vehicles": 934
                 },
                 "2020-04-19": {
-                    "n_images": 975,
-                    "vehicles": 718
+                    "n_images": 1438,
+                    "vehicles": 1067
+                },
+                "2020-04-20": {
+                    "n_images": 221,
+                    "vehicles": 339
                 }
             },
             "geometry": {
@@ -14355,8 +14863,12 @@
                     "vehicles": 2612
                 },
                 "2020-04-19": {
-                    "n_images": 845,
-                    "vehicles": 2053
+                    "n_images": 1445,
+                    "vehicles": 3816
+                },
+                "2020-04-20": {
+                    "n_images": 200,
+                    "vehicles": 1057
                 }
             },
             "geometry": {
@@ -14473,8 +14985,12 @@
                     "vehicles": 1702
                 },
                 "2020-04-19": {
-                    "n_images": 652,
-                    "vehicles": 792
+                    "n_images": 1200,
+                    "vehicles": 1681
+                },
+                "2020-04-20": {
+                    "n_images": 84,
+                    "vehicles": 297
                 }
             },
             "geometry": {
@@ -14586,8 +15102,12 @@
                     "vehicles": 668
                 },
                 "2020-04-19": {
-                    "n_images": 578,
-                    "vehicles": 391
+                    "n_images": 919,
+                    "vehicles": 891
+                },
+                "2020-04-20": {
+                    "n_images": 117,
+                    "vehicles": 360
                 }
             },
             "geometry": {
@@ -14704,8 +15224,12 @@
                     "vehicles": 322
                 },
                 "2020-04-19": {
-                    "n_images": 564,
-                    "vehicles": 223
+                    "n_images": 978,
+                    "vehicles": 465
+                },
+                "2020-04-20": {
+                    "n_images": 133,
+                    "vehicles": 150
                 }
             },
             "geometry": {
@@ -14822,8 +15346,12 @@
                     "vehicles": 263
                 },
                 "2020-04-19": {
-                    "n_images": 871,
-                    "vehicles": 188
+                    "n_images": 1436,
+                    "vehicles": 342
+                },
+                "2020-04-20": {
+                    "n_images": 208,
+                    "vehicles": 136
                 }
             },
             "geometry": {
@@ -14940,8 +15468,12 @@
                     "vehicles": 1425
                 },
                 "2020-04-19": {
-                    "n_images": 884,
-                    "vehicles": 749
+                    "n_images": 1436,
+                    "vehicles": 1573
+                },
+                "2020-04-20": {
+                    "n_images": 209,
+                    "vehicles": 526
                 }
             },
             "geometry": {
@@ -15058,8 +15590,12 @@
                     "vehicles": 11640
                 },
                 "2020-04-19": {
-                    "n_images": 884,
-                    "vehicles": 7049
+                    "n_images": 1435,
+                    "vehicles": 12356
+                },
+                "2020-04-20": {
+                    "n_images": 209,
+                    "vehicles": 4608
                 }
             },
             "geometry": {
@@ -15176,8 +15712,12 @@
                     "vehicles": 1170
                 },
                 "2020-04-19": {
-                    "n_images": 892,
-                    "vehicles": 759
+                    "n_images": 1439,
+                    "vehicles": 1401
+                },
+                "2020-04-20": {
+                    "n_images": 210,
+                    "vehicles": 527
                 }
             },
             "geometry": {
@@ -15273,8 +15813,12 @@
                     "vehicles": 647
                 },
                 "2020-04-19": {
-                    "n_images": 894,
-                    "vehicles": 399
+                    "n_images": 1436,
+                    "vehicles": 900
+                },
+                "2020-04-20": {
+                    "n_images": 209,
+                    "vehicles": 612
                 }
             },
             "geometry": {
@@ -15370,8 +15914,12 @@
                     "vehicles": 3383
                 },
                 "2020-04-19": {
-                    "n_images": 997,
-                    "vehicles": 2704
+                    "n_images": 1437,
+                    "vehicles": 3690
+                },
+                "2020-04-20": {
+                    "n_images": 228,
+                    "vehicles": 473
                 }
             },
             "geometry": {
@@ -15483,8 +16031,12 @@
                     "vehicles": 1734
                 },
                 "2020-04-19": {
-                    "n_images": 1014,
-                    "vehicles": 1506
+                    "n_images": 1439,
+                    "vehicles": 1925
+                },
+                "2020-04-20": {
+                    "n_images": 227,
+                    "vehicles": 254
                 }
             },
             "geometry": {
@@ -15596,8 +16148,12 @@
                     "vehicles": 1441
                 },
                 "2020-04-19": {
-                    "n_images": 1016,
-                    "vehicles": 1387
+                    "n_images": 1434,
+                    "vehicles": 1976
+                },
+                "2020-04-20": {
+                    "n_images": 227,
+                    "vehicles": 638
                 }
             },
             "geometry": {
@@ -15693,8 +16249,12 @@
                     "vehicles": 1011
                 },
                 "2020-04-19": {
-                    "n_images": 1072,
-                    "vehicles": 693
+                    "n_images": 1437,
+                    "vehicles": 962
+                },
+                "2020-04-20": {
+                    "n_images": 239,
+                    "vehicles": 461
                 }
             },
             "geometry": {
@@ -15790,8 +16350,12 @@
                     "vehicles": 7595
                 },
                 "2020-04-19": {
-                    "n_images": 761,
-                    "vehicles": 6131
+                    "n_images": 1030,
+                    "vehicles": 7929
+                },
+                "2020-04-20": {
+                    "n_images": 220,
+                    "vehicles": 1772
                 }
             },
             "geometry": {
@@ -15996,8 +16560,12 @@
                     "vehicles": 115
                 },
                 "2020-04-19": {
-                    "n_images": 1092,
-                    "vehicles": 79
+                    "n_images": 1435,
+                    "vehicles": 122
+                },
+                "2020-04-20": {
+                    "n_images": 242,
+                    "vehicles": 68
                 }
             },
             "geometry": {
@@ -16114,8 +16682,12 @@
                     "vehicles": 2162
                 },
                 "2020-04-19": {
-                    "n_images": 1108,
-                    "vehicles": 1539
+                    "n_images": 1434,
+                    "vehicles": 2903
+                },
+                "2020-04-20": {
+                    "n_images": 243,
+                    "vehicles": 1224
                 }
             },
             "geometry": {
@@ -16232,8 +16804,12 @@
                     "vehicles": 1592
                 },
                 "2020-04-19": {
-                    "n_images": 1110,
-                    "vehicles": 1177
+                    "n_images": 1434,
+                    "vehicles": 1833
+                },
+                "2020-04-20": {
+                    "n_images": 243,
+                    "vehicles": 523
                 }
             },
             "geometry": {
@@ -16350,8 +16926,12 @@
                     "vehicles": 438
                 },
                 "2020-04-19": {
-                    "n_images": 1032,
-                    "vehicles": 436
+                    "n_images": 1210,
+                    "vehicles": 569
+                },
+                "2020-04-20": {
+                    "n_images": 264,
+                    "vehicles": 243
                 }
             },
             "geometry": {
@@ -16468,8 +17048,12 @@
                     "vehicles": 272
                 },
                 "2020-04-19": {
-                    "n_images": 1262,
-                    "vehicles": 295
+                    "n_images": 1438,
+                    "vehicles": 372
+                },
+                "2020-04-20": {
+                    "n_images": 267,
+                    "vehicles": 202
                 }
             },
             "geometry": {
@@ -16586,8 +17170,12 @@
                     "vehicles": 358
                 },
                 "2020-04-19": {
-                    "n_images": 1263,
-                    "vehicles": 279
+                    "n_images": 1437,
+                    "vehicles": 436
+                },
+                "2020-04-20": {
+                    "n_images": 267,
+                    "vehicles": 268
                 }
             },
             "geometry": {
@@ -16704,8 +17292,12 @@
                     "vehicles": 455
                 },
                 "2020-04-19": {
-                    "n_images": 1047,
-                    "vehicles": 445
+                    "n_images": 1213,
+                    "vehicles": 568
+                },
+                "2020-04-20": {
+                    "n_images": 269,
+                    "vehicles": 310
                 }
             },
             "geometry": {
@@ -16822,8 +17414,12 @@
                     "vehicles": 553
                 },
                 "2020-04-19": {
-                    "n_images": 1275,
-                    "vehicles": 543
+                    "n_images": 1438,
+                    "vehicles": 588
+                },
+                "2020-04-20": {
+                    "n_images": 268,
+                    "vehicles": 142
                 }
             },
             "geometry": {
@@ -16940,8 +17536,12 @@
                     "vehicles": 549
                 },
                 "2020-04-19": {
-                    "n_images": 1052,
-                    "vehicles": 429
+                    "n_images": 1210,
+                    "vehicles": 557
+                },
+                "2020-04-20": {
+                    "n_images": 268,
+                    "vehicles": 395
                 }
             },
             "geometry": {
@@ -17058,8 +17658,12 @@
                     "vehicles": 408
                 },
                 "2020-04-19": {
-                    "n_images": 1274,
-                    "vehicles": 327
+                    "n_images": 1432,
+                    "vehicles": 406
+                },
+                "2020-04-20": {
+                    "n_images": 271,
+                    "vehicles": 264
                 }
             },
             "geometry": {
@@ -17176,8 +17780,12 @@
                     "vehicles": 2387
                 },
                 "2020-04-19": {
-                    "n_images": 1288,
-                    "vehicles": 2096
+                    "n_images": 1434,
+                    "vehicles": 2456
+                },
+                "2020-04-20": {
+                    "n_images": 270,
+                    "vehicles": 709
                 }
             },
             "geometry": {
@@ -17294,8 +17902,12 @@
                     "vehicles": 328
                 },
                 "2020-04-19": {
-                    "n_images": 955,
-                    "vehicles": 554
+                    "n_images": 985,
+                    "vehicles": 594
+                },
+                "2020-04-20": {
+                    "n_images": 246,
+                    "vehicles": 442
                 }
             },
             "geometry": {
@@ -17412,8 +18024,12 @@
                     "vehicles": 433
                 },
                 "2020-04-19": {
-                    "n_images": 1026,
-                    "vehicles": 747
+                    "n_images": 1153,
+                    "vehicles": 978
+                },
+                "2020-04-20": {
+                    "n_images": 238,
+                    "vehicles": 530
                 }
             },
             "geometry": {
@@ -17530,8 +18146,12 @@
                     "vehicles": 3621
                 },
                 "2020-04-19": {
-                    "n_images": 887,
-                    "vehicles": 3339
+                    "n_images": 1014,
+                    "vehicles": 4093
+                },
+                "2020-04-20": {
+                    "n_images": 174,
+                    "vehicles": 726
                 }
             },
             "geometry": {
@@ -17648,8 +18268,12 @@
                     "vehicles": 399
                 },
                 "2020-04-19": {
-                    "n_images": 1007,
-                    "vehicles": 354
+                    "n_images": 1073,
+                    "vehicles": 397
+                },
+                "2020-04-20": {
+                    "n_images": 262,
+                    "vehicles": 222
                 }
             },
             "geometry": {
@@ -17766,8 +18390,12 @@
                     "vehicles": 614
                 },
                 "2020-04-19": {
-                    "n_images": 1087,
-                    "vehicles": 786
+                    "n_images": 1153,
+                    "vehicles": 837
+                },
+                "2020-04-20": {
+                    "n_images": 197,
+                    "vehicles": 202
                 }
             },
             "geometry": {
@@ -17863,8 +18491,12 @@
                     "vehicles": 236
                 },
                 "2020-04-19": {
-                    "n_images": 996,
-                    "vehicles": 211
+                    "n_images": 1117,
+                    "vehicles": 287
+                },
+                "2020-04-20": {
+                    "n_images": 259,
+                    "vehicles": 308
                 }
             },
             "geometry": {
@@ -17960,8 +18592,12 @@
                     "vehicles": 87
                 },
                 "2020-04-19": {
-                    "n_images": 977,
-                    "vehicles": 107
+                    "n_images": 1046,
+                    "vehicles": 125
+                },
+                "2020-04-20": {
+                    "n_images": 224,
+                    "vehicles": 79
                 }
             },
             "geometry": {
@@ -18057,8 +18693,12 @@
                     "vehicles": 131
                 },
                 "2020-04-19": {
-                    "n_images": 1180,
-                    "vehicles": 160
+                    "n_images": 1434,
+                    "vehicles": 247
+                },
+                "2020-04-20": {
+                    "n_images": 252,
+                    "vehicles": 132
                 }
             },
             "geometry": {
@@ -18175,8 +18815,12 @@
                     "vehicles": 330
                 },
                 "2020-04-19": {
-                    "n_images": 1159,
-                    "vehicles": 326
+                    "n_images": 1437,
+                    "vehicles": 454
+                },
+                "2020-04-20": {
+                    "n_images": 251,
+                    "vehicles": 250
                 }
             },
             "geometry": {
@@ -18285,8 +18929,20 @@
                     "vehicles": 806
                 },
                 "2020-04-17": {
-                    "n_images": 206,
-                    "vehicles": 225
+                    "n_images": 1434,
+                    "vehicles": 625
+                },
+                "2020-04-18": {
+                    "n_images": 1440,
+                    "vehicles": 268
+                },
+                "2020-04-19": {
+                    "n_images": 1440,
+                    "vehicles": 515
+                },
+                "2020-04-20": {
+                    "n_images": 251,
+                    "vehicles": 330
                 }
             },
             "geometry": {
@@ -18403,8 +19059,12 @@
                     "vehicles": 2052
                 },
                 "2020-04-19": {
-                    "n_images": 1333,
-                    "vehicles": 2205
+                    "n_images": 1435,
+                    "vehicles": 2299
+                },
+                "2020-04-20": {
+                    "n_images": 278,
+                    "vehicles": 386
                 }
             },
             "geometry": {
@@ -18639,8 +19299,12 @@
                     "vehicles": 290
                 },
                 "2020-04-19": {
-                    "n_images": 1111,
-                    "vehicles": 432
+                    "n_images": 1177,
+                    "vehicles": 482
+                },
+                "2020-04-20": {
+                    "n_images": 177,
+                    "vehicles": 250
                 }
             },
             "geometry": {
@@ -18757,8 +19421,12 @@
                     "vehicles": 401
                 },
                 "2020-04-19": {
-                    "n_images": 1338,
-                    "vehicles": 457
+                    "n_images": 1435,
+                    "vehicles": 541
+                },
+                "2020-04-20": {
+                    "n_images": 279,
+                    "vehicles": 323
                 }
             },
             "geometry": {
@@ -18854,8 +19522,12 @@
                     "vehicles": 2462
                 },
                 "2020-04-19": {
-                    "n_images": 1143,
-                    "vehicles": 3546
+                    "n_images": 1210,
+                    "vehicles": 3765
+                },
+                "2020-04-20": {
+                    "n_images": 203,
+                    "vehicles": 893
                 }
             },
             "geometry": {
@@ -18972,8 +19644,12 @@
                     "vehicles": 1062
                 },
                 "2020-04-19": {
-                    "n_images": 1349,
-                    "vehicles": 1287
+                    "n_images": 1434,
+                    "vehicles": 1427
+                },
+                "2020-04-20": {
+                    "n_images": 282,
+                    "vehicles": 882
                 }
             },
             "geometry": {
@@ -19090,8 +19766,12 @@
                     "vehicles": 1885
                 },
                 "2020-04-19": {
-                    "n_images": 1355,
-                    "vehicles": 2320
+                    "n_images": 1439,
+                    "vehicles": 2400
+                },
+                "2020-04-20": {
+                    "n_images": 281,
+                    "vehicles": 737
                 }
             },
             "geometry": {
@@ -19208,8 +19888,12 @@
                     "vehicles": 384
                 },
                 "2020-04-19": {
-                    "n_images": 935,
-                    "vehicles": 588
+                    "n_images": 1014,
+                    "vehicles": 694
+                },
+                "2020-04-20": {
+                    "n_images": 228,
+                    "vehicles": 296
                 }
             },
             "geometry": {
@@ -19326,8 +20010,12 @@
                     "vehicles": 230
                 },
                 "2020-04-19": {
-                    "n_images": 864,
-                    "vehicles": 338
+                    "n_images": 906,
+                    "vehicles": 392
+                },
+                "2020-04-20": {
+                    "n_images": 186,
+                    "vehicles": 199
                 }
             },
             "geometry": {
@@ -19444,8 +20132,12 @@
                     "vehicles": 1230
                 },
                 "2020-04-19": {
-                    "n_images": 866,
-                    "vehicles": 1448
+                    "n_images": 929,
+                    "vehicles": 1704
+                },
+                "2020-04-20": {
+                    "n_images": 198,
+                    "vehicles": 943
                 }
             },
             "geometry": {
@@ -19562,8 +20254,12 @@
                     "vehicles": 801
                 },
                 "2020-04-19": {
-                    "n_images": 962,
-                    "vehicles": 748
+                    "n_images": 985,
+                    "vehicles": 806
+                },
+                "2020-04-20": {
+                    "n_images": 202,
+                    "vehicles": 432
                 }
             },
             "geometry": {
@@ -19798,8 +20494,12 @@
                     "vehicles": 254
                 },
                 "2020-04-19": {
-                    "n_images": 991,
-                    "vehicles": 224
+                    "n_images": 1044,
+                    "vehicles": 254
+                },
+                "2020-04-20": {
+                    "n_images": 130,
+                    "vehicles": 84
                 }
             },
             "geometry": {
@@ -19916,8 +20616,12 @@
                     "vehicles": 225
                 },
                 "2020-04-19": {
-                    "n_images": 1075,
-                    "vehicles": 386
+                    "n_images": 1125,
+                    "vehicles": 429
+                },
+                "2020-04-20": {
+                    "n_images": 225,
+                    "vehicles": 232
                 }
             },
             "geometry": {
@@ -19986,8 +20690,12 @@
                     "vehicles": 153
                 },
                 "2020-04-19": {
-                    "n_images": 1383,
-                    "vehicles": 211
+                    "n_images": 1437,
+                    "vehicles": 233
+                },
+                "2020-04-20": {
+                    "n_images": 284,
+                    "vehicles": 172
                 }
             },
             "geometry": {
@@ -20052,8 +20760,12 @@
                     "vehicles": 665
                 },
                 "2020-04-19": {
-                    "n_images": 1384,
-                    "vehicles": 502
+                    "n_images": 1437,
+                    "vehicles": 515
+                },
+                "2020-04-20": {
+                    "n_images": 285,
+                    "vehicles": 140
                 }
             },
             "geometry": {
@@ -20288,8 +21000,12 @@
                     "vehicles": 562
                 },
                 "2020-04-19": {
-                    "n_images": 1387,
-                    "vehicles": 655
+                    "n_images": 1438,
+                    "vehicles": 681
+                },
+                "2020-04-20": {
+                    "n_images": 287,
+                    "vehicles": 182
                 }
             },
             "geometry": {
@@ -20406,8 +21122,12 @@
                     "vehicles": 417
                 },
                 "2020-04-19": {
-                    "n_images": 1103,
-                    "vehicles": 690
+                    "n_images": 1108,
+                    "vehicles": 692
+                },
+                "2020-04-20": {
+                    "n_images": 262,
+                    "vehicles": 313
                 }
             },
             "geometry": {
@@ -20503,8 +21223,12 @@
                     "vehicles": 246
                 },
                 "2020-04-19": {
-                    "n_images": 1080,
-                    "vehicles": 398
+                    "n_images": 1105,
+                    "vehicles": 420
+                },
+                "2020-04-20": {
+                    "n_images": 126,
+                    "vehicles": 112
                 }
             },
             "geometry": {
@@ -20600,8 +21324,12 @@
                     "vehicles": 291
                 },
                 "2020-04-19": {
-                    "n_images": 1075,
-                    "vehicles": 351
+                    "n_images": 1109,
+                    "vehicles": 374
+                },
+                "2020-04-20": {
+                    "n_images": 225,
+                    "vehicles": 204
                 }
             },
             "geometry": {
@@ -20697,8 +21425,12 @@
                     "vehicles": 636
                 },
                 "2020-04-19": {
-                    "n_images": 838,
-                    "vehicles": 730
+                    "n_images": 867,
+                    "vehicles": 782
+                },
+                "2020-04-20": {
+                    "n_images": 179,
+                    "vehicles": 482
                 }
             },
             "geometry": {
@@ -20819,8 +21551,8 @@
                     "vehicles": 599
                 },
                 "2020-04-20": {
-                    "n_images": 6,
-                    "vehicles": 6
+                    "n_images": 294,
+                    "vehicles": 325
                 }
             },
             "geometry": {
@@ -20941,8 +21673,8 @@
                     "vehicles": 516
                 },
                 "2020-04-20": {
-                    "n_images": 16,
-                    "vehicles": 21
+                    "n_images": 295,
+                    "vehicles": 304
                 }
             },
             "geometry": {
@@ -21287,8 +22019,12 @@
                     "vehicles": 876
                 },
                 "2020-04-19": {
-                    "n_images": 46,
-                    "vehicles": 162
+                    "n_images": 940,
+                    "vehicles": 867
+                },
+                "2020-04-20": {
+                    "n_images": 212,
+                    "vehicles": 744
                 }
             },
             "geometry": {
@@ -21405,8 +22141,12 @@
                     "vehicles": 388
                 },
                 "2020-04-19": {
-                    "n_images": 51,
-                    "vehicles": 61
+                    "n_images": 1102,
+                    "vehicles": 577
+                },
+                "2020-04-20": {
+                    "n_images": 172,
+                    "vehicles": 242
                 }
             },
             "geometry": {
@@ -21523,8 +22263,12 @@
                     "vehicles": 299
                 },
                 "2020-04-19": {
-                    "n_images": 37,
-                    "vehicles": 17
+                    "n_images": 926,
+                    "vehicles": 558
+                },
+                "2020-04-20": {
+                    "n_images": 168,
+                    "vehicles": 347
                 }
             },
             "geometry": {
@@ -21641,8 +22385,12 @@
                     "vehicles": 48
                 },
                 "2020-04-19": {
-                    "n_images": 28,
-                    "vehicles": 12
+                    "n_images": 127,
+                    "vehicles": 63
+                },
+                "2020-04-20": {
+                    "n_images": 60,
+                    "vehicles": 53
                 }
             },
             "geometry": {
@@ -21759,8 +22507,12 @@
                     "vehicles": 2341
                 },
                 "2020-04-19": {
-                    "n_images": 526,
-                    "vehicles": 1297
+                    "n_images": 1129,
+                    "vehicles": 2959
+                },
+                "2020-04-20": {
+                    "n_images": 159,
+                    "vehicles": 1195
                 }
             },
             "geometry": {
@@ -21877,8 +22629,12 @@
                     "vehicles": 606
                 },
                 "2020-04-19": {
-                    "n_images": 452,
-                    "vehicles": 299
+                    "n_images": 898,
+                    "vehicles": 611
+                },
+                "2020-04-20": {
+                    "n_images": 145,
+                    "vehicles": 452
                 }
             },
             "geometry": {
@@ -21995,8 +22751,12 @@
                     "vehicles": 2027
                 },
                 "2020-04-19": {
-                    "n_images": 481,
-                    "vehicles": 1068
+                    "n_images": 991,
+                    "vehicles": 2170
+                },
+                "2020-04-20": {
+                    "n_images": 129,
+                    "vehicles": 542
                 }
             },
             "geometry": {
@@ -22113,8 +22873,12 @@
                     "vehicles": 1326
                 },
                 "2020-04-19": {
-                    "n_images": 529,
-                    "vehicles": 806
+                    "n_images": 1045,
+                    "vehicles": 1516
+                },
+                "2020-04-20": {
+                    "n_images": 121,
+                    "vehicles": 388
                 }
             },
             "geometry": {
@@ -22285,8 +23049,12 @@
                     "vehicles": 288
                 },
                 "2020-04-19": {
-                    "n_images": 814,
-                    "vehicles": 199
+                    "n_images": 1437,
+                    "vehicles": 455
+                },
+                "2020-04-20": {
+                    "n_images": 195,
+                    "vehicles": 165
                 }
             },
             "geometry": {
@@ -22403,8 +23171,12 @@
                     "vehicles": 825
                 },
                 "2020-04-19": {
-                    "n_images": 467,
-                    "vehicles": 471
+                    "n_images": 984,
+                    "vehicles": 984
+                },
+                "2020-04-20": {
+                    "n_images": 115,
+                    "vehicles": 281
                 }
             },
             "geometry": {
@@ -22521,8 +23293,12 @@
                     "vehicles": 2544
                 },
                 "2020-04-19": {
-                    "n_images": 499,
-                    "vehicles": 1121
+                    "n_images": 1036,
+                    "vehicles": 2075
+                },
+                "2020-04-20": {
+                    "n_images": 139,
+                    "vehicles": 653
                 }
             },
             "geometry": {
@@ -22639,8 +23415,12 @@
                     "vehicles": 1089
                 },
                 "2020-04-19": {
-                    "n_images": 756,
-                    "vehicles": 659
+                    "n_images": 1436,
+                    "vehicles": 1343
+                },
+                "2020-04-20": {
+                    "n_images": 185,
+                    "vehicles": 302
                 }
             },
             "geometry": {
@@ -22757,8 +23537,12 @@
                     "vehicles": 1718
                 },
                 "2020-04-19": {
-                    "n_images": 502,
-                    "vehicles": 1171
+                    "n_images": 1044,
+                    "vehicles": 2110
+                },
+                "2020-04-20": {
+                    "n_images": 163,
+                    "vehicles": 725
                 }
             },
             "geometry": {
@@ -22875,8 +23659,12 @@
                     "vehicles": 3519
                 },
                 "2020-04-19": {
-                    "n_images": 820,
-                    "vehicles": 2013
+                    "n_images": 1442,
+                    "vehicles": 4707
+                },
+                "2020-04-20": {
+                    "n_images": 197,
+                    "vehicles": 1362
                 }
             },
             "geometry": {
@@ -22993,8 +23781,12 @@
                     "vehicles": 1472
                 },
                 "2020-04-19": {
-                    "n_images": 831,
-                    "vehicles": 987
+                    "n_images": 1437,
+                    "vehicles": 1942
+                },
+                "2020-04-20": {
+                    "n_images": 200,
+                    "vehicles": 502
                 }
             },
             "geometry": {
@@ -23111,8 +23903,12 @@
                     "vehicles": 1821
                 },
                 "2020-04-19": {
-                    "n_images": 710,
-                    "vehicles": 952
+                    "n_images": 1428,
+                    "vehicles": 1844
+                },
+                "2020-04-20": {
+                    "n_images": 162,
+                    "vehicles": 437
                 }
             },
             "geometry": {
@@ -23229,8 +24025,12 @@
                     "vehicles": 738
                 },
                 "2020-04-19": {
-                    "n_images": 605,
-                    "vehicles": 280
+                    "n_images": 1218,
+                    "vehicles": 594
+                },
+                "2020-04-20": {
+                    "n_images": 138,
+                    "vehicles": 165
                 }
             },
             "geometry": {
@@ -23347,8 +24147,12 @@
                     "vehicles": 554
                 },
                 "2020-04-19": {
-                    "n_images": 717,
-                    "vehicles": 487
+                    "n_images": 1436,
+                    "vehicles": 1357
+                },
+                "2020-04-20": {
+                    "n_images": 166,
+                    "vehicles": 304
                 }
             },
             "geometry": {
@@ -23465,8 +24269,12 @@
                     "vehicles": 461
                 },
                 "2020-04-19": {
-                    "n_images": 487,
-                    "vehicles": 386
+                    "n_images": 992,
+                    "vehicles": 653
+                },
+                "2020-04-20": {
+                    "n_images": 583,
+                    "vehicles": 494
                 }
             },
             "geometry": {
@@ -23691,8 +24499,12 @@
                     "vehicles": 1092
                 },
                 "2020-04-19": {
-                    "n_images": 493,
-                    "vehicles": 844
+                    "n_images": 992,
+                    "vehicles": 1431
+                },
+                "2020-04-20": {
+                    "n_images": 138,
+                    "vehicles": 474
                 }
             },
             "geometry": {
@@ -23809,8 +24621,12 @@
                     "vehicles": 661
                 },
                 "2020-04-19": {
-                    "n_images": 495,
-                    "vehicles": 501
+                    "n_images": 991,
+                    "vehicles": 917
+                },
+                "2020-04-20": {
+                    "n_images": 139,
+                    "vehicles": 294
                 }
             },
             "geometry": {
@@ -23927,8 +24743,12 @@
                     "vehicles": 1121
                 },
                 "2020-04-19": {
-                    "n_images": 327,
-                    "vehicles": 680
+                    "n_images": 696,
+                    "vehicles": 1441
+                },
+                "2020-04-20": {
+                    "n_images": 85,
+                    "vehicles": 445
                 }
             },
             "geometry": {
@@ -24045,8 +24865,12 @@
                     "vehicles": 663
                 },
                 "2020-04-19": {
-                    "n_images": 331,
-                    "vehicles": 503
+                    "n_images": 697,
+                    "vehicles": 1028
+                },
+                "2020-04-20": {
+                    "n_images": 84,
+                    "vehicles": 373
                 }
             },
             "geometry": {
@@ -24163,8 +24987,12 @@
                     "vehicles": 1201
                 },
                 "2020-04-19": {
-                    "n_images": 331,
-                    "vehicles": 714
+                    "n_images": 698,
+                    "vehicles": 1352
+                },
+                "2020-04-20": {
+                    "n_images": 86,
+                    "vehicles": 525
                 }
             },
             "geometry": {
@@ -24281,8 +25109,12 @@
                     "vehicles": 1239
                 },
                 "2020-04-19": {
-                    "n_images": 332,
-                    "vehicles": 569
+                    "n_images": 698,
+                    "vehicles": 1288
+                },
+                "2020-04-20": {
+                    "n_images": 86,
+                    "vehicles": 278
                 }
             },
             "geometry": {
@@ -24399,8 +25231,12 @@
                     "vehicles": 359
                 },
                 "2020-04-19": {
-                    "n_images": 337,
-                    "vehicles": 195
+                    "n_images": 697,
+                    "vehicles": 443
+                },
+                "2020-04-20": {
+                    "n_images": 85,
+                    "vehicles": 145
                 }
             },
             "geometry": {
@@ -24517,8 +25353,12 @@
                     "vehicles": 3433
                 },
                 "2020-04-19": {
-                    "n_images": 341,
-                    "vehicles": 1866
+                    "n_images": 698,
+                    "vehicles": 3627
+                },
+                "2020-04-20": {
+                    "n_images": 86,
+                    "vehicles": 738
                 }
             },
             "geometry": {
@@ -24635,8 +25475,12 @@
                     "vehicles": 4289
                 },
                 "2020-04-19": {
-                    "n_images": 339,
-                    "vehicles": 3018
+                    "n_images": 696,
+                    "vehicles": 5363
+                },
+                "2020-04-20": {
+                    "n_images": 87,
+                    "vehicles": 1236
                 }
             },
             "geometry": {
@@ -24753,8 +25597,12 @@
                     "vehicles": 392
                 },
                 "2020-04-19": {
-                    "n_images": 342,
-                    "vehicles": 76
+                    "n_images": 698,
+                    "vehicles": 126
+                },
+                "2020-04-20": {
+                    "n_images": 87,
+                    "vehicles": 59
                 }
             },
             "geometry": {
@@ -24869,6 +25717,14 @@
                 "2020-04-18": {
                     "n_images": 413,
                     "vehicles": 417
+                },
+                "2020-04-19": {
+                    "n_images": 348,
+                    "vehicles": 258
+                },
+                "2020-04-20": {
+                    "n_images": 88,
+                    "vehicles": 187
                 }
             },
             "geometry": {
@@ -24983,6 +25839,14 @@
                 "2020-04-18": {
                     "n_images": 412,
                     "vehicles": 579
+                },
+                "2020-04-19": {
+                    "n_images": 347,
+                    "vehicles": 617
+                },
+                "2020-04-20": {
+                    "n_images": 88,
+                    "vehicles": 283
                 }
             },
             "geometry": {
@@ -25097,6 +25961,14 @@
                 "2020-04-18": {
                     "n_images": 411,
                     "vehicles": 1105
+                },
+                "2020-04-19": {
+                    "n_images": 347,
+                    "vehicles": 941
+                },
+                "2020-04-20": {
+                    "n_images": 88,
+                    "vehicles": 613
                 }
             },
             "geometry": {
@@ -25211,6 +26083,14 @@
                 "2020-04-18": {
                     "n_images": 412,
                     "vehicles": 193
+                },
+                "2020-04-19": {
+                    "n_images": 346,
+                    "vehicles": 165
+                },
+                "2020-04-20": {
+                    "n_images": 87,
+                    "vehicles": 141
                 }
             },
             "geometry": {
@@ -25385,8 +26265,8 @@
                     "vehicles": 1964
                 },
                 "2020-04-20": {
-                    "n_images": 42,
-                    "vehicles": 170
+                    "n_images": 282,
+                    "vehicles": 1230
                 }
             },
             "geometry": {
@@ -25507,8 +26387,8 @@
                     "vehicles": 3833
                 },
                 "2020-04-20": {
-                    "n_images": 45,
-                    "vehicles": 316
+                    "n_images": 282,
+                    "vehicles": 1407
                 }
             },
             "geometry": {
@@ -25629,8 +26509,8 @@
                     "vehicles": 479
                 },
                 "2020-04-20": {
-                    "n_images": 45,
-                    "vehicles": 32
+                    "n_images": 283,
+                    "vehicles": 284
                 }
             },
             "geometry": {
@@ -25751,8 +26631,8 @@
                     "vehicles": 1755
                 },
                 "2020-04-20": {
-                    "n_images": 47,
-                    "vehicles": 150
+                    "n_images": 283,
+                    "vehicles": 988
                 }
             },
             "geometry": {
@@ -25869,8 +26749,12 @@
                     "vehicles": 1143
                 },
                 "2020-04-19": {
-                    "n_images": 1011,
-                    "vehicles": 929
+                    "n_images": 1036,
+                    "vehicles": 992
+                },
+                "2020-04-20": {
+                    "n_images": 163,
+                    "vehicles": 513
                 }
             },
             "geometry": {
@@ -25966,8 +26850,8 @@
                     "vehicles": 763
                 },
                 "2020-04-19": {
-                    "n_images": 571,
-                    "vehicles": 481
+                    "n_images": 620,
+                    "vehicles": 614
                 }
             },
             "geometry": {
@@ -26084,8 +26968,12 @@
                     "vehicles": 1563
                 },
                 "2020-04-19": {
-                    "n_images": 569,
-                    "vehicles": 1254
+                    "n_images": 698,
+                    "vehicles": 1699
+                },
+                "2020-04-20": {
+                    "n_images": 127,
+                    "vehicles": 623
                 }
             },
             "geometry": {
@@ -26256,8 +27144,12 @@
                     "vehicles": 1759
                 },
                 "2020-04-19": {
-                    "n_images": 1201,
-                    "vehicles": 1782
+                    "n_images": 1436,
+                    "vehicles": 2037
+                },
+                "2020-04-20": {
+                    "n_images": 256,
+                    "vehicles": 341
                 }
             },
             "geometry": {
@@ -26374,8 +27266,12 @@
                     "vehicles": 1268
                 },
                 "2020-04-19": {
-                    "n_images": 1202,
-                    "vehicles": 1254
+                    "n_images": 1435,
+                    "vehicles": 1796
+                },
+                "2020-04-20": {
+                    "n_images": 258,
+                    "vehicles": 810
                 }
             },
             "geometry": {
@@ -26492,8 +27388,12 @@
                     "vehicles": 3341
                 },
                 "2020-04-19": {
-                    "n_images": 1206,
-                    "vehicles": 3106
+                    "n_images": 1437,
+                    "vehicles": 3693
+                },
+                "2020-04-20": {
+                    "n_images": 258,
+                    "vehicles": 954
                 }
             },
             "geometry": {
@@ -26610,8 +27510,12 @@
                     "vehicles": 159
                 },
                 "2020-04-19": {
-                    "n_images": 1204,
-                    "vehicles": 104
+                    "n_images": 1431,
+                    "vehicles": 206
+                },
+                "2020-04-20": {
+                    "n_images": 258,
+                    "vehicles": 109
                 }
             },
             "geometry": {
@@ -26728,8 +27632,12 @@
                     "vehicles": 3468
                 },
                 "2020-04-19": {
-                    "n_images": 1211,
-                    "vehicles": 3194
+                    "n_images": 1436,
+                    "vehicles": 4460
+                },
+                "2020-04-20": {
+                    "n_images": 260,
+                    "vehicles": 1846
                 }
             },
             "geometry": {
@@ -26846,8 +27754,12 @@
                     "vehicles": 28
                 },
                 "2020-04-19": {
-                    "n_images": 577,
-                    "vehicles": 6
+                    "n_images": 707,
+                    "vehicles": 12
+                },
+                "2020-04-20": {
+                    "n_images": 98,
+                    "vehicles": 3
                 }
             },
             "geometry": {
@@ -26964,8 +27876,12 @@
                     "vehicles": 1525
                 },
                 "2020-04-19": {
-                    "n_images": 1167,
-                    "vehicles": 3059
+                    "n_images": 1440,
+                    "vehicles": 4000
+                },
+                "2020-04-20": {
+                    "n_images": 253,
+                    "vehicles": 748
                 }
             },
             "geometry": {
@@ -27135,8 +28051,8 @@
                     "vehicles": 1021
                 },
                 "2020-04-20": {
-                    "n_images": 44,
-                    "vehicles": 116
+                    "n_images": 219,
+                    "vehicles": 854
                 }
             },
             "geometry": {
@@ -27257,8 +28173,8 @@
                     "vehicles": 1391
                 },
                 "2020-04-20": {
-                    "n_images": 58,
-                    "vehicles": 51
+                    "n_images": 276,
+                    "vehicles": 234
                 }
             },
             "geometry": {
@@ -27379,8 +28295,8 @@
                     "vehicles": 1343
                 },
                 "2020-04-20": {
-                    "n_images": 64,
-                    "vehicles": 187
+                    "n_images": 289,
+                    "vehicles": 765
                 }
             },
             "geometry": {
@@ -27501,8 +28417,8 @@
                     "vehicles": 4105
                 },
                 "2020-04-20": {
-                    "n_images": 37,
-                    "vehicles": 247
+                    "n_images": 143,
+                    "vehicles": 914
                 }
             },
             "geometry": {
@@ -27623,8 +28539,8 @@
                     "vehicles": 3056
                 },
                 "2020-04-20": {
-                    "n_images": 65,
-                    "vehicles": 461
+                    "n_images": 284,
+                    "vehicles": 2085
                 }
             },
             "geometry": {
@@ -27741,8 +28657,12 @@
                     "vehicles": 130
                 },
                 "2020-04-19": {
-                    "n_images": 1095,
-                    "vehicles": 72
+                    "n_images": 1434,
+                    "vehicles": 133
+                },
+                "2020-04-20": {
+                    "n_images": 225,
+                    "vehicles": 66
                 }
             },
             "geometry": {
@@ -27859,8 +28779,12 @@
                     "vehicles": 1211
                 },
                 "2020-04-19": {
-                    "n_images": 1086,
-                    "vehicles": 581
+                    "n_images": 1429,
+                    "vehicles": 858
+                },
+                "2020-04-20": {
+                    "n_images": 224,
+                    "vehicles": 382
                 }
             },
             "geometry": {
@@ -27966,8 +28890,8 @@
                     "vehicles": 2906
                 },
                 "2020-04-19": {
-                    "n_images": 1093,
-                    "vehicles": 1846
+                    "n_images": 1095,
+                    "vehicles": 1852
                 }
             },
             "geometry": {
@@ -28077,8 +29001,8 @@
                     "vehicles": 9
                 },
                 "2020-04-20": {
-                    "n_images": 6,
-                    "vehicles": 0
+                    "n_images": 284,
+                    "vehicles": 4
                 }
             },
             "geometry": {
@@ -28199,8 +29123,8 @@
                     "vehicles": 21
                 },
                 "2020-04-20": {
-                    "n_images": 32,
-                    "vehicles": 0
+                    "n_images": 297,
+                    "vehicles": 10
                 }
             },
             "geometry": {
@@ -28321,8 +29245,8 @@
                     "vehicles": 120
                 },
                 "2020-04-20": {
-                    "n_images": 33,
-                    "vehicles": 12
+                    "n_images": 298,
+                    "vehicles": 74
                 }
             },
             "geometry": {
@@ -28443,8 +29367,8 @@
                     "vehicles": 37
                 },
                 "2020-04-20": {
-                    "n_images": 33,
-                    "vehicles": 1
+                    "n_images": 299,
+                    "vehicles": 15
                 }
             },
             "geometry": {
@@ -28565,8 +29489,8 @@
                     "vehicles": 21
                 },
                 "2020-04-20": {
-                    "n_images": 38,
-                    "vehicles": 2
+                    "n_images": 299,
+                    "vehicles": 15
                 }
             },
             "geometry": {
@@ -28687,7 +29611,7 @@
                     "vehicles": 10
                 },
                 "2020-04-20": {
-                    "n_images": 44,
+                    "n_images": 301,
                     "vehicles": 0
                 }
             },
@@ -28809,8 +29733,8 @@
                     "vehicles": 889
                 },
                 "2020-04-20": {
-                    "n_images": 45,
-                    "vehicles": 85
+                    "n_images": 300,
+                    "vehicles": 572
                 }
             },
             "geometry": {
@@ -28931,8 +29855,8 @@
                     "vehicles": 80
                 },
                 "2020-04-20": {
-                    "n_images": 24,
-                    "vehicles": 1
+                    "n_images": 297,
+                    "vehicles": 18
                 }
             },
             "geometry": {
@@ -29053,8 +29977,8 @@
                     "vehicles": 0
                 },
                 "2020-04-20": {
-                    "n_images": 29,
-                    "vehicles": 0
+                    "n_images": 297,
+                    "vehicles": 1
                 }
             },
             "geometry": {
@@ -29171,8 +30095,12 @@
                     "vehicles": 0
                 },
                 "2020-04-19": {
-                    "n_images": 213,
-                    "vehicles": 0
+                    "n_images": 296,
+                    "vehicles": 3
+                },
+                "2020-04-20": {
+                    "n_images": 49,
+                    "vehicles": 1
                 }
             },
             "geometry": {
@@ -29289,8 +30217,12 @@
                     "vehicles": 2
                 },
                 "2020-04-19": {
-                    "n_images": 239,
-                    "vehicles": 5
+                    "n_images": 299,
+                    "vehicles": 11
+                },
+                "2020-04-20": {
+                    "n_images": 52,
+                    "vehicles": 2
                 }
             },
             "geometry": {
@@ -29407,8 +30339,12 @@
                     "vehicles": 3
                 },
                 "2020-04-19": {
-                    "n_images": 151,
-                    "vehicles": 5
+                    "n_images": 207,
+                    "vehicles": 6
+                },
+                "2020-04-20": {
+                    "n_images": 52,
+                    "vehicles": 0
                 }
             },
             "geometry": {
@@ -29525,8 +30461,12 @@
                     "vehicles": 59
                 },
                 "2020-04-19": {
-                    "n_images": 995,
-                    "vehicles": 61
+                    "n_images": 1409,
+                    "vehicles": 187
+                },
+                "2020-04-20": {
+                    "n_images": 228,
+                    "vehicles": 92
                 }
             },
             "geometry": {
@@ -29643,8 +30583,12 @@
                     "vehicles": 44
                 },
                 "2020-04-19": {
-                    "n_images": 1032,
-                    "vehicles": 26
+                    "n_images": 1438,
+                    "vehicles": 65
+                },
+                "2020-04-20": {
+                    "n_images": 232,
+                    "vehicles": 74
                 }
             },
             "geometry": {
@@ -29761,8 +30705,12 @@
                     "vehicles": 60
                 },
                 "2020-04-19": {
-                    "n_images": 1021,
-                    "vehicles": 37
+                    "n_images": 1424,
+                    "vehicles": 125
+                },
+                "2020-04-20": {
+                    "n_images": 233,
+                    "vehicles": 61
                 }
             },
             "geometry": {
@@ -29879,8 +30827,12 @@
                     "vehicles": 102
                 },
                 "2020-04-19": {
-                    "n_images": 1031,
-                    "vehicles": 79
+                    "n_images": 1433,
+                    "vehicles": 359
+                },
+                "2020-04-20": {
+                    "n_images": 231,
+                    "vehicles": 120
                 }
             },
             "geometry": {
@@ -30001,8 +30953,8 @@
                     "vehicles": 85
                 },
                 "2020-04-20": {
-                    "n_images": 77,
-                    "vehicles": 26
+                    "n_images": 305,
+                    "vehicles": 73
                 }
             },
             "geometry": {
@@ -30123,8 +31075,8 @@
                     "vehicles": 113
                 },
                 "2020-04-20": {
-                    "n_images": 76,
-                    "vehicles": 32
+                    "n_images": 300,
+                    "vehicles": 99
                 }
             },
             "geometry": {
@@ -30245,8 +31197,8 @@
                     "vehicles": 125
                 },
                 "2020-04-20": {
-                    "n_images": 69,
-                    "vehicles": 33
+                    "n_images": 245,
+                    "vehicles": 117
                 }
             },
             "geometry": {
@@ -30363,8 +31315,12 @@
                     "vehicles": 715
                 },
                 "2020-04-19": {
-                    "n_images": 1137,
-                    "vehicles": 2212
+                    "n_images": 1431,
+                    "vehicles": 3004
+                },
+                "2020-04-20": {
+                    "n_images": 231,
+                    "vehicles": 639
                 }
             },
             "geometry": {
@@ -30481,8 +31437,12 @@
                     "vehicles": 50
                 },
                 "2020-04-19": {
-                    "n_images": 803,
-                    "vehicles": 43
+                    "n_images": 1444,
+                    "vehicles": 131
+                },
+                "2020-04-20": {
+                    "n_images": 194,
+                    "vehicles": 50
                 }
             },
             "geometry": {
@@ -30599,8 +31559,12 @@
                     "vehicles": 468
                 },
                 "2020-04-19": {
-                    "n_images": 812,
-                    "vehicles": 354
+                    "n_images": 1430,
+                    "vehicles": 729
+                },
+                "2020-04-20": {
+                    "n_images": 179,
+                    "vehicles": 203
                 }
             },
             "geometry": {
@@ -30717,8 +31681,12 @@
                     "vehicles": 209
                 },
                 "2020-04-19": {
-                    "n_images": 811,
-                    "vehicles": 135
+                    "n_images": 1426,
+                    "vehicles": 321
+                },
+                "2020-04-20": {
+                    "n_images": 179,
+                    "vehicles": 127
                 }
             },
             "geometry": {
@@ -30835,8 +31803,12 @@
                     "vehicles": 1036
                 },
                 "2020-04-19": {
-                    "n_images": 638,
-                    "vehicles": 434
+                    "n_images": 1439,
+                    "vehicles": 1094
+                },
+                "2020-04-20": {
+                    "n_images": 1328,
+                    "vehicles": 732
                 }
             },
             "geometry": {
@@ -30953,8 +31925,12 @@
                     "vehicles": 975
                 },
                 "2020-04-19": {
-                    "n_images": 615,
-                    "vehicles": 516
+                    "n_images": 1425,
+                    "vehicles": 1218
+                },
+                "2020-04-20": {
+                    "n_images": 1259,
+                    "vehicles": 1367
                 }
             },
             "geometry": {
@@ -31071,8 +32047,12 @@
                     "vehicles": 590
                 },
                 "2020-04-19": {
-                    "n_images": 617,
-                    "vehicles": 310
+                    "n_images": 1423,
+                    "vehicles": 830
+                },
+                "2020-04-20": {
+                    "n_images": 1331,
+                    "vehicles": 1105
                 }
             },
             "geometry": {
@@ -31189,8 +32169,12 @@
                     "vehicles": 445
                 },
                 "2020-04-19": {
-                    "n_images": 618,
-                    "vehicles": 248
+                    "n_images": 1424,
+                    "vehicles": 751
+                },
+                "2020-04-20": {
+                    "n_images": 1334,
+                    "vehicles": 927
                 }
             },
             "geometry": {
@@ -31307,8 +32291,12 @@
                     "vehicles": 715
                 },
                 "2020-04-19": {
-                    "n_images": 512,
-                    "vehicles": 404
+                    "n_images": 1196,
+                    "vehicles": 726
+                },
+                "2020-04-20": {
+                    "n_images": 1125,
+                    "vehicles": 777
                 }
             },
             "geometry": {
@@ -31425,8 +32413,12 @@
                     "vehicles": 127
                 },
                 "2020-04-19": {
-                    "n_images": 1431,
-                    "vehicles": 306
+                    "n_images": 1441,
+                    "vehicles": 312
+                },
+                "2020-04-20": {
+                    "n_images": 291,
+                    "vehicles": 143
                 }
             },
             "geometry": {
@@ -31543,8 +32535,12 @@
                     "vehicles": 161
                 },
                 "2020-04-19": {
-                    "n_images": 1432,
-                    "vehicles": 199
+                    "n_images": 1442,
+                    "vehicles": 203
+                },
+                "2020-04-20": {
+                    "n_images": 291,
+                    "vehicles": 139
                 }
             },
             "geometry": {
@@ -31661,8 +32657,12 @@
                     "vehicles": 5666
                 },
                 "2020-04-19": {
-                    "n_images": 1432,
-                    "vehicles": 6573
+                    "n_images": 1441,
+                    "vehicles": 6617
+                },
+                "2020-04-20": {
+                    "n_images": 292,
+                    "vehicles": 1940
                 }
             },
             "geometry": {
@@ -31779,8 +32779,12 @@
                     "vehicles": 1928
                 },
                 "2020-04-19": {
-                    "n_images": 1432,
-                    "vehicles": 2467
+                    "n_images": 1434,
+                    "vehicles": 2473
+                },
+                "2020-04-20": {
+                    "n_images": 277,
+                    "vehicles": 1212
                 }
             },
             "geometry": {
@@ -31897,8 +32901,12 @@
                     "vehicles": 751
                 },
                 "2020-04-19": {
-                    "n_images": 630,
-                    "vehicles": 513
+                    "n_images": 1430,
+                    "vehicles": 1197
+                },
+                "2020-04-20": {
+                    "n_images": 1322,
+                    "vehicles": 1515
                 }
             },
             "geometry": {
@@ -32015,8 +33023,12 @@
                     "vehicles": 226
                 },
                 "2020-04-19": {
-                    "n_images": 790,
-                    "vehicles": 118
+                    "n_images": 1432,
+                    "vehicles": 312
+                },
+                "2020-04-20": {
+                    "n_images": 177,
+                    "vehicles": 117
                 }
             },
             "geometry": {
@@ -32133,8 +33145,12 @@
                     "vehicles": 2641
                 },
                 "2020-04-19": {
-                    "n_images": 800,
-                    "vehicles": 1636
+                    "n_images": 1441,
+                    "vehicles": 3316
+                },
+                "2020-04-20": {
+                    "n_images": 182,
+                    "vehicles": 1141
                 }
             },
             "geometry": {
@@ -32251,8 +33267,12 @@
                     "vehicles": 360
                 },
                 "2020-04-19": {
-                    "n_images": 1226,
-                    "vehicles": 100
+                    "n_images": 1436,
+                    "vehicles": 160
+                },
+                "2020-04-20": {
+                    "n_images": 260,
+                    "vehicles": 301
                 }
             },
             "geometry": {
@@ -32369,8 +33389,12 @@
                     "vehicles": 48
                 },
                 "2020-04-19": {
-                    "n_images": 1221,
-                    "vehicles": 30
+                    "n_images": 1437,
+                    "vehicles": 56
+                },
+                "2020-04-20": {
+                    "n_images": 261,
+                    "vehicles": 15
                 }
             },
             "geometry": {
@@ -32491,7 +33515,7 @@
                     "vehicles": 0
                 },
                 "2020-04-20": {
-                    "n_images": 61,
+                    "n_images": 285,
                     "vehicles": 0
                 }
             },
@@ -32613,7 +33637,7 @@
                     "vehicles": 4
                 },
                 "2020-04-20": {
-                    "n_images": 45,
+                    "n_images": 301,
                     "vehicles": 0
                 }
             },
