@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import balance_gpu
+
 from imageai.Detection import ObjectDetection
 import os
 import json
