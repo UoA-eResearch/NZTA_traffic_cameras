@@ -179,7 +179,7 @@
                 if (i == MAX_DOMAIN) istr = ">=" + i
                 div.innerHTML += `<i style="background-color: ${cmap(i)}"></i>${istr}<br>`;
             }
-            div.innerHTML += '<div class="legend-source">Source: <a href="https://www.journeys.nzta.govt.nz/traffic-and-travel-information/traffic-cameras" target="_blank">NZTA</a></div>'
+            div.innerHTML += '<a style="font-size: 70%;" href="https://github.com/UoA-eResearch/NZTA_traffic_cameras">GitHub</a> <div class="legend-source">Source: <a href="https://www.journeys.nzta.govt.nz/traffic-and-travel-information/traffic-cameras" target="_blank">NZTA</a></div>'
 
             return div;
         };
