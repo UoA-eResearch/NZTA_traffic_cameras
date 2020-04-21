@@ -27,4 +27,4 @@ for i,c in enumerate(tqdm(cameras["features"])):
     cameras["features"][i]["detections"] = detections
 
 with open("cameras_with_detections.json", "w") as f:
-    json.dump(cameras, f, indent=4, sort_keys=True)
+    json.dump(cameras, f, indent=2, sort_keys=True)
