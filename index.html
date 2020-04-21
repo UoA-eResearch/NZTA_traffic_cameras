@@ -53,7 +53,7 @@
         .legend {
             line-height: 18px;
             color: white;
-            width: 207px;
+            width: 150px;
             padding: 20px;
             margin-top: 30px !important;
         }
@@ -119,15 +119,44 @@
                     var desc = `<b>${p.name}</b><br>
                         ${p.direction}<br>
                         ID: ${p.id}<br>
-                        Mean number of vehicles per day: ${Math.round(feature.mean)}
-                        <img src="${p.imageUrl}" width=300"><br>
+                        Mean number of vehicles per day: ${Math.round(feature.mean)}<br>
+                        <img style='text-align: center' src="${p.imageUrl}" width=100%"><br>
+                        <div id='graph'></div>
                         <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
                         <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/annotations/${p.id}?C=N;O=D">View past detections</a><br>`;
-                    layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: 300, autoPanPadding: [100, 400] });
+                    layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: 500, autoPanPadding: [100, 700]}).on("popupopen", function(e) {
+                        console.log(feature)
+                        var keys = Object.keys(feature.detections).slice(1, -1);
+                        console.log(keys)
+                        if (keys.length < 2) return;
+                        var data = [{
+                            x: keys,
+                            y: keys.map(k => feature.detections[k].vehicles),
+                            name: "Vehicle detections",
+                            type: 'line',
+                        },
+                        {
+                            x: keys,
+                            y: keys.map(k => feature.detections[k].n_images),
+                            name: "Images processed",
+                            type: 'line',
+                        }];
+                        var layout = {
+                            title: `Vehicle detections at ${p.name}`,
+                            height: 300,
+                            xaxis: {
+                                title: "Date (UTC)"
+                            },
+                            yaxis: {
+                                title: "Number of vehicles",
+                            },
+                        }
+                        var container = $("#graph", e.popup._contentNode);
+                        Plotly.newPlot(container[0], data, layout);
+                    });
                 },
                 pointToLayer: function (feature, latlng) {
-                    var keys = Object.keys(feature.detections);
-                    keys.pop();
+                    var keys = Object.keys(feature.detections).slice(1, -1);
                     var sum = 0;
                     for (var k of keys) {
                         sum += feature.detections[k].vehicles;
@@ -148,7 +177,7 @@
             for (var i = 0; i <= MAX_DOMAIN; i += MAX_DOMAIN / 10) {
                 var istr = i;
                 if (i == MAX_DOMAIN) istr = ">=" + i
-                div.innerHTML += `<i style="background-color: ${cmap(i)}"></i>${i}<br>`;
+                div.innerHTML += `<i style="background-color: ${cmap(i)}"></i>${istr}<br>`;
             }
             div.innerHTML += '<div class="legend-source">Source: <a href="https://www.journeys.nzta.govt.nz/traffic-and-travel-information/traffic-cameras" target="_blank">NZTA</a></div>'
 
