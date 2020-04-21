@@ -144,8 +144,10 @@
 
         legend.onAdd = function (map) {
             var div = L.DomUtil.create('div', 'info legend');
-            div.innerHTML += "<h4>Number of vehicles per day</h4>";
+            div.innerHTML += "<h4>Mean number of vehicles per day</h4>";
             for (var i = 0; i <= MAX_DOMAIN; i += MAX_DOMAIN / 10) {
+                var istr = i;
+                if (i == MAX_DOMAIN) istr = ">=" + i
                 div.innerHTML += `<i style="background-color: ${cmap(i)}"></i>${i}<br>`;
             }
             div.innerHTML += '<div class="legend-source">Source: <a href="https://www.journeys.nzta.govt.nz/traffic-and-travel-information/traffic-cameras" target="_blank">NZTA</a></div>'
