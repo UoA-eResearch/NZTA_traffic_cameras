@@ -111,62 +111,114 @@
         var cmap = chroma.scale("Spectral").domain([MAX_DOMAIN, 0]);
 
         $.getJSON("cameras_with_detections.json", function (data) {
-            console.log(data);
-            window.data = data;
-            var geojsonLayer = new L.GeoJSON(data, {
-                onEachFeature: function (feature, layer) {
-                    var p = feature.properties;
-                    var desc = `<b>${p.name}</b><br>
-                        ${p.direction}<br>
-                        ID: ${p.id}<br>
-                        Mean number of vehicles per day: ${Math.round(feature.mean)}<br>
-                        <img style='text-align: center' src="${p.imageUrl}" width=100%"><br>
-                        <div id='graph'></div>
-                        <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
-                        <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/annotations/${p.id}?C=N;O=D">View past detections</a><br>`;
-                    layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: 500, autoPanPadding: [100, 700]}).on("popupopen", function(e) {
-                        console.log(feature)
+            $.getJSON("sample_annotations.json", function(sample_annotations) {
+                console.log(data);
+                window.data = data;
+                console.log(sample_annotations);
+                var geojsonLayer = new L.GeoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        var p = feature.properties;
+                        var desc = `<b>${p.name}</b><br>
+                            ${p.direction}<br>
+                            ID: ${p.id}<br>
+                            Mean number of vehicles per day: ${Math.round(feature.mean)}<br>
+                            <canvas></canvas><br>
+                            <div id='graph'></div>
+                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
+                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/annotations/${p.id}?C=N;O=D">View past detections</a><br>`;
+                        layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: 600 }).on("popupopen", function(e) {
+                            var px = map.project(e.target._popup._latlng);
+                            console.log(px);
+                            px.y -= 400;
+                            map.panTo(map.unproject(px),{animate: true});
+                            console.log(feature)
+                            var keys = Object.keys(feature.detections).slice(1, -1);
+                            console.log(keys)
+                            if (keys.length < 2) return;
+                            var data = [{
+                                x: keys,
+                                y: keys.map(k => feature.detections[k].vehicles),
+                                name: "Vehicle detections",
+                                type: 'line',
+                            },
+                            {
+                                x: keys,
+                                y: keys.map(k => feature.detections[k].n_images),
+                                name: "Images processed",
+                                type: 'line',
+                            }];
+                            var layout = {
+                                title: `Vehicle detections at ${p.name}`,
+                                height: 300,
+                                xaxis: {
+                                    title: "Date (UTC)"
+                                },
+                                yaxis: {
+                                    title: "Number of vehicles",
+                                },
+                            }
+                            var container = $("#graph", e.popup._contentNode);
+                            Plotly.newPlot(container[0], data, layout);
+                            var canvas = $("canvas", e.popup._contentNode)[0];
+                            var ctx = canvas.getContext('2d');
+                            var image = new Image();
+                            image.src = p.imageUrl;
+                            image.onload = function() {
+                                canvas.width = 600;
+                                console.log(image.width, image.height)
+                                canvas.height = image.height / (image.width / 600);
+                                ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+                            }
+                            container.on('plotly_hover', function(event, data){
+                                var id = event.target.id;
+                                var d = data.points[0].x;
+                                console.log(d);
+                                var matches = []
+                                for (var dt in sample_annotations[p.id]) {
+                                    if (dt.startsWith(d)) {
+                                        matches.push(dt);
+                                    }
+                                }
+                                //var match = matches[Math.floor(Math.random() * matches.length)];
+                                var match = matches[0];
+                                var annotations = sample_annotations[p.id][match];
+                                console.log(match, annotations);
+                                var url = `http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}/${match.replace(".json", "")}`;
+                                var image = new Image();
+                                image.src = url;
+                                image.onload = function() {
+                                    var xscale = canvas.width / image.width;
+                                    var yscale = canvas.height / image.height;
+                                    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+                                    for (var a of annotations) {
+                                        console.log(a);
+                                        if (a.percentage_probability < 40) continue;
+                                        ctx.beginPath();
+                                        ctx.rect(a.box_points[0] * xscale, a.box_points[1] * yscale, (a.box_points[2] - a.box_points[0]) * xscale, (a.box_points[3] - a.box_points[1]) * yscale);
+                                        ctx.lineWidth = 1;
+                                        ctx.strokeStyle = 'red';
+                                        ctx.stroke();
+                                        ctx.font = "bold 10pt Courier";
+                                        ctx.fillStyle = "red";
+                                        ctx.fillText(`${a.name}:${a.percentage_probability}`, a.box_points[0] * xscale, a.box_points[1] * yscale);
+                                    }
+                                };
+                            })
+                        });
+                    },
+                    pointToLayer: function (feature, latlng) {
                         var keys = Object.keys(feature.detections).slice(1, -1);
-                        console.log(keys)
-                        if (keys.length < 2) return;
-                        var data = [{
-                            x: keys,
-                            y: keys.map(k => feature.detections[k].vehicles),
-                            name: "Vehicle detections",
-                            type: 'line',
-                        },
-                        {
-                            x: keys,
-                            y: keys.map(k => feature.detections[k].n_images),
-                            name: "Images processed",
-                            type: 'line',
-                        }];
-                        var layout = {
-                            title: `Vehicle detections at ${p.name}`,
-                            height: 300,
-                            xaxis: {
-                                title: "Date (UTC)"
-                            },
-                            yaxis: {
-                                title: "Number of vehicles",
-                            },
+                        var sum = 0;
+                        for (var k of keys) {
+                            sum += feature.detections[k].vehicles;
                         }
-                        var container = $("#graph", e.popup._contentNode);
-                        Plotly.newPlot(container[0], data, layout);
-                    });
-                },
-                pointToLayer: function (feature, latlng) {
-                    var keys = Object.keys(feature.detections).slice(1, -1);
-                    var sum = 0;
-                    for (var k of keys) {
-                        sum += feature.detections[k].vehicles;
+                        var mean = sum / keys.length;
+                        feature.mean = mean;
+                        var color = cmap(mean);
+                        return L.circleMarker(latlng, {color: color});
                     }
-                    var mean = sum / keys.length;
-                    feature.mean = mean;
-                    var color = cmap(mean);
-                    return L.circleMarker(latlng, {color: color});
-                }
-            }).addTo(map);
+                }).addTo(map);
+            });
         });
 
         var legend = L.control({ position: 'bottomright' });
