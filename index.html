@@ -170,7 +170,7 @@
                                 canvas.height = image.height / (image.width / POPUP_WIDTH);
                                 ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
                             }
-                            container.on('plotly_hover', function(event, data){
+                            container.on('plotly_hover plotly_click', function(event, data){
                                 var id = event.target.id;
                                 var d = data.points[0].x;
                                 console.log(d);
