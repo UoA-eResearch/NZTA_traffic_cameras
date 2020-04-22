@@ -81,6 +81,7 @@
     <div id="map"></div>
     <script>
         const MAX_DOMAIN = 2000;
+        const POPUP_WIDTH = 800;
         var map = L.map('map', {
             zoom: 6,
             minZoom: 6,
@@ -126,10 +127,10 @@
                             <div id='graph'></div>
                             <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
                             <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/annotations/${p.id}?C=N;O=D">View past detections</a><br>`;
-                        layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: 600 }).on("popupopen", function(e) {
+                        layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: POPUP_WIDTH }).on("popupopen", function(e) {
                             var px = map.project(e.target._popup._latlng);
                             console.log(px);
-                            px.y -= 400;
+                            px.y -= 500;
                             map.panTo(map.unproject(px),{animate: true});
                             console.log(feature)
                             var keys = Object.keys(feature.detections).slice(1, -1);
@@ -164,9 +165,9 @@
                             var image = new Image();
                             image.src = p.imageUrl;
                             image.onload = function() {
-                                canvas.width = 600;
+                                canvas.width = POPUP_WIDTH;
                                 console.log(image.width, image.height)
-                                canvas.height = image.height / (image.width / 600);
+                                canvas.height = image.height / (image.width / POPUP_WIDTH);
                                 ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
                             }
                             container.on('plotly_hover', function(event, data){
