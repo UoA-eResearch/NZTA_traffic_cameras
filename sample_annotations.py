@@ -5,6 +5,8 @@ import random
 import json
 from tqdm.auto import tqdm
 
+random.seed(9001)
+
 camIds = sorted(os.listdir("annotations"))
 
 results = {}
