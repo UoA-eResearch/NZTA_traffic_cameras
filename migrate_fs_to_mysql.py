@@ -26,5 +26,8 @@ for camId in tqdm(camIds):
         sql = "INSERT IGNORE INTO detections (camID, datetime, detections) VALUES (%s, %s, %s)"
         dt = datetime.strptime(annotation_path, "%Y-%m-%d-%H%M%S.jpg.json")
         val = (camId, dt, a)
-        cur.execute(sql, val)
-        db.commit()
+        try:
+            cur.execute(sql, val)
+            db.commit()
+        except Exception as e:
+            print(a, e)
