@@ -34,11 +34,10 @@ print(camIds)
 
 
 for camId in tqdm(camIds):
-    os.makedirs(f"annotations/{camId}", exist_ok = True)
     images = os.listdir(f"images/{camId}/")
     sql = f"SELECT datetime FROM detections WHERE camID={camId}"
     cur.execute(sql)
-    already_processed_images = cur.fetchall()
+    already_processed_images = [item[0] for item in cur.fetchall()]
     images_to_process = [image for image in images if datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg") not in already_processed_images]
     for image in tqdm(images_to_process):
         if not image.endswith(".jpg"):
