@@ -39,17 +39,15 @@ for camId in tqdm(camIds):
     sql = f"SELECT datetime FROM detections WHERE camID={camId}"
     cur.execute(sql)
     already_processed_images = cur.fetchall()
+    images_to_process = [image for image in images if datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg") not in already_processed_images]
     for image in tqdm(images):
         if not image.endswith(".jpg"):
             continue
         image_path = f"images/{camId}/{image}"
-        dt = datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg")
-        if dt in already_processed_images:
-            continue
         try:
             detected_image_array, detections = detector.detectCustomObjectsFromImage(output_type="array", custom_objects=custom_objects, input_image=image_path, minimum_percentage_probability=30)
             sql = "INSERT IGNORE INTO detections (camID, datetime, detections) VALUES (%s, %s, %s)"
-            val = (camId, dt, json.dumps(detections))
+            val = (camId, datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg"), json.dumps(detections))
             cur.execute(sql, val)
             db.commit()
 
