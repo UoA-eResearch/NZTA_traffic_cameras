@@ -40,7 +40,7 @@ for camId in tqdm(camIds):
     cur.execute(sql)
     already_processed_images = cur.fetchall()
     images_to_process = [image for image in images if datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg") not in already_processed_images]
-    for image in tqdm(images):
+    for image in tqdm(images_to_process):
         if not image.endswith(".jpg"):
             continue
         image_path = f"images/{camId}/{image}"
