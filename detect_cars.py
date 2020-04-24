@@ -7,6 +7,17 @@ import os
 import json
 import sys
 from tqdm.auto import tqdm
+import mysql.connector
+import config
+from datetime import datetime
+
+db = mysql.connector.connect(
+  host="localhost",
+  user=config.user,
+  passwd=config.passwd,
+  database="car"
+)
+cur = db.cursor()
 
 detector = ObjectDetection()
 detector.setModelTypeAsRetinaNet()
@@ -25,16 +36,22 @@ print(camIds)
 for camId in tqdm(camIds):
     os.makedirs(f"annotations/{camId}", exist_ok = True)
     images = os.listdir(f"images/{camId}/")
+    sql = f"SELECT datetime FROM detections WHERE camID={camId}"
+    cur.execute(sql)
+    already_processed_images = cur.fetchall()
     for image in tqdm(images):
         if not image.endswith(".jpg"):
             continue
         image_path = f"images/{camId}/{image}"
-        output_path = f"annotations/{camId}/{image}.json"
-        if os.path.isfile(output_path): # skip done
+        dt = datetime.strptime(image, "%Y-%m-%d-%H%M%S.jpg")
+        if dt in already_processed_images:
             continue
         try:
             detected_image_array, detections = detector.detectCustomObjectsFromImage(output_type="array", custom_objects=custom_objects, input_image=image_path, minimum_percentage_probability=30)
-            with open(output_path, "w") as f:
-                json.dump(detections, f)
+            sql = "INSERT IGNORE INTO detections (camID, datetime, detections) VALUES (%s, %s, %s)"
+            val = (camId, dt, json.dumps(detections))
+            cur.execute(sql, val)
+            db.commit()
+
         except Exception as e:
             print(image_path, e)

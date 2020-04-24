@@ -14,8 +14,11 @@ for i,c in enumerate(tqdm(cameras["features"])):
     annotations = os.listdir(f"annotations/{camId}/")
     detections = {}
     for annotation_path in tqdm(annotations):
-        with open(f"annotations/{camId}/{annotation_path}") as f:
-            a = json.load(f)
+        try:
+            with open(f"annotations/{camId}/{annotation_path}") as f:
+                a = json.load(f)
+        except:
+            continue
         dt = annotation_path[:10]
         if dt not in detections:
             detections[dt] = {
