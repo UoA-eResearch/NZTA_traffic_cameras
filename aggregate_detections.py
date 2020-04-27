@@ -3,31 +3,36 @@
 import json
 import os
 from tqdm.auto import tqdm
+import mysql.connector
+import config
 
 with open("cameras.json") as f:
     cameras = json.load(f)
 
-for i,c in enumerate(tqdm(cameras["features"])):
-    camId = c["properties"]["id"]
-    if not camId in os.listdir("annotations"):
-        continue
-    annotations = os.listdir(f"annotations/{camId}/")
-    detections = {}
-    for annotation_path in tqdm(annotations):
-        try:
-            with open(f"annotations/{camId}/{annotation_path}") as f:
-                a = json.load(f)
-        except:
-            continue
-        dt = annotation_path[:10]
-        if dt not in detections:
-            detections[dt] = {
-                    "vehicles": 0,
-                    "n_images": 0
+db = mysql.connector.connect(
+  host="localhost",
+  user=config.user,
+  passwd=config.passwd,
+  database="car"
+)
+cur = db.cursor()
+
+sql = "SELECT camId,DATE(datetime),COUNT(*),SUM(JSON_LENGTH(detections)) FROM `detections` GROUP BY camID,DATE(datetime)"
+
+cur.execute(sql)
+results = cur.fetchall()
+
+for result in results:
+    print(result)
+    for i,c in enumerate(cameras["features"]):
+        camId = c["properties"]["id"]
+        if int(camId) == result[0]:
+            if "detections" not in cameras["features"][i]:
+                cameras["features"][i]["detections"] = {}
+            cameras["features"][i]["detections"][str(result[1])] = {
+                "n_images": int(result[2]),
+                "vehicles": int(result[3])
             }
-        detections[dt]["vehicles"] += len(a)
-        detections[dt]["n_images"] += 1
-    cameras["features"][i]["detections"] = detections
 
 with open("cameras_with_detections.json", "w") as f:
     json.dump(cameras, f, indent=2, sort_keys=True)

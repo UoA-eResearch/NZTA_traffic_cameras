@@ -1,6 +1,5 @@
 #!/bin/bash
 git pull
-./run_parallel.sh
 echo "starting aggregation"
 ./aggregate_detections.py
 echo "sampling"
