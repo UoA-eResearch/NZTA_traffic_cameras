@@ -207,12 +207,18 @@
                         });
                     },
                     pointToLayer: function (feature, latlng) {
-                        var keys = Object.keys(feature.detections).slice(1, -1);
                         var sum = 0;
-                        for (var k of keys) {
-                            sum += feature.detections[k].vehicles;
+                        var mean = 0;
+                        if (!feature.detections) {
+                            console.warn(feature);
+                        } else {
+                            var keys = Object.keys(feature.detections).slice(1, -1);
+                            sum = 0;
+                            for (var k of keys) {
+                                sum += feature.detections[k].vehicles;
+                            }
+                            mean = sum / keys.length;
                         }
-                        var mean = sum / keys.length;
                         feature.mean = mean;
                         var color = cmap(mean);
                         return L.circleMarker(latlng, {color: color});
