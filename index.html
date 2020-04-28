@@ -125,8 +125,7 @@
                             Mean number of vehicles per day: ${Math.round(feature.mean)}<br>
                             <canvas></canvas><br>
                             <div id='graph'></div>
-                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
-                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/annotations/${p.id}?C=N;O=D">View past detections</a><br>`;
+                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>`;
                         layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: POPUP_WIDTH }).on("popupopen", function(e) {
                             var px = map.project(e.target._popup._latlng);
                             console.log(px);
@@ -184,7 +183,7 @@
                                 var match = matches[0];
                                 var annotations = sample_annotations[p.id][match];
                                 console.log(match, annotations);
-                                var url = `http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}/${match.replace(".json", "")}`;
+                                var url = `http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}/${match + ".jpg"}`;
                                 var image = new Image();
                                 image.src = url;
                                 image.onload = function() {

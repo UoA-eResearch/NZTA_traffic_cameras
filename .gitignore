@@ -4,3 +4,4 @@ annotations
 *.log
 *.pyc
 config.py
+dts_per_camID.json
