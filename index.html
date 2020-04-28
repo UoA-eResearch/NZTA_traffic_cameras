@@ -125,7 +125,8 @@
                             Mean number of vehicles per day: ${Math.round(feature.mean)}<br>
                             <canvas></canvas><br>
                             <div id='graph'></div>
-                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>`;
+                            <a href="http://cardetector.nzta-traffic-cameras.cloud.edu.au/images/${p.id}?C=N;O=D">View past images</a><br>
+                            <a href="${p.imageUrl}">View latest image</a><br>`;
                         layer.bindTooltip(feature.properties.name).bindPopup(desc, { minWidth: POPUP_WIDTH }).on("popupopen", function(e) {
                             var px = map.project(e.target._popup._latlng);
                             console.log(px);
