@@ -45,7 +45,7 @@ def pick_gpu_lowest_memory():
 def setup_one_gpu():
     assert not 'tensorflow' in sys.modules, "GPU setup must happen before importing TensorFlow"
     gpu_id = pick_gpu_lowest_memory()
-    print("Picking GPU "+str(gpu_id))
+    #print("Picking GPU "+str(gpu_id))
     os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
     os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
 
@@ -61,7 +61,7 @@ import tensorflow as tf
 
 oldinit = tf.Session.__init__
 def myinit(session_object, target='', graph=None, config=None):
-    print("Intercepted!")
+    #print("Intercepted!")
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
     oldinit(session_object, target='', graph=None, config=config)
