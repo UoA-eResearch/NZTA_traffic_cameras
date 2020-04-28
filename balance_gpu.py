@@ -55,6 +55,7 @@ def setup_no_gpu():
     os.environ["CUDA_VISIBLE_DEVICES"] = ''
 
 setup_one_gpu()
+import silence_tensorflow.auto
 
 import tensorflow as tf
 
