@@ -23,7 +23,7 @@ detector = ObjectDetection()
 detector.setModelTypeAsRetinaNet()
 detector.setModelPath("./models/resnet50_coco_best_v2.0.1.h5")
 detector.loadModel()
-print("Detector ready")
+#print("Detector ready")
 custom_objects = detector.CustomObjects(car=True, motorcycle=True, bus=True, truck=True)
 
 if len(sys.argv) > 1:
