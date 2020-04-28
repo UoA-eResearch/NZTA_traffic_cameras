@@ -7473,8 +7473,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    172.525816,
-                    -43.543434
+                    172.522902,
+                    -43.543692
                 ]
             },
             "properties": {
@@ -7497,7 +7497,7 @@
                 ],
                 "ways": [
                     {
-                        "id": "794",
+                        "id": "796",
                         "name": "01S"
                     }
                 ],
@@ -7509,9 +7509,9 @@
                 ],
                 "legs": [
                     {
-                        "id": "harewood-to-hornby",
-                        "name": "Harewood to Hornby",
-                        "totalLength": "2.7458178160333"
+                        "id": "hornby-to-rolleston",
+                        "name": "Hornby to Rolleston",
+                        "totalLength": "5.138"
                     }
                 ]
             }
@@ -7848,7 +7848,7 @@
                 "id": "700",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/700.jpg",
                 "name": "SH1\/SH73 Russley North",
-                "offline": "1",
+                "offline": "",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/700.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/700",
@@ -8040,7 +8040,7 @@
                 "id": "704",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/704.jpg",
                 "name": "SH1 Wilkinsons Rd",
-                "offline": "1",
+                "offline": "",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/704.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/704",
@@ -8136,7 +8136,7 @@
                 "id": "706",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/706.jpg",
                 "name": "SH1 WBB Groynes Dr South",
-                "offline": "1",
+                "offline": "",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/706.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/706",
@@ -8307,7 +8307,7 @@
                 "id": "710",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/710.jpg",
                 "name": "SH1 Memorial Ave South",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/710.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/710",
@@ -8937,7 +8937,7 @@
                 "id": "261",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/261.jpg",
                 "name": "SH73 Yaldhurst Rd",
-                "offline": "1",
+                "offline": "",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/261.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/261",
@@ -13342,5 +13342,5 @@
             }
         }
     ],
-    "updatedTime": 1585874646
+    "updatedTime": 1588035072
 }
