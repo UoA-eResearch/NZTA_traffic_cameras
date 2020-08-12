@@ -23,7 +23,6 @@ cur.execute(sql)
 results = cur.fetchall()
 
 for result in results:
-    print(result)
     for i,c in enumerate(cameras["features"]):
         camId = c["properties"]["id"]
         if int(camId) == result[0]:
