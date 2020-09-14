@@ -1830,14 +1830,62 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.68074,
+                    -36.669183
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "South along Nthn Mwy in Okura area",
+                "direction": "Southbound",
+                "group": "SH1-Northern",
+                "id": "769",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/769.jpg",
+                "name": "SH1 Okura",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/769.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/769",
+                "regions": [
+                    {
+                        "id": "2",
+                        "name": "Auckland"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "32",
+                        "name": "01N"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "3",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "hibiscus-coast-hw-to-silverdale",
+                        "name": "Hibiscus Coast HW to Silverdale",
+                        "totalLength": "11.507159027354"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.981959,
                     -37.192844
                 ]
             },
             "properties": {
                 "featureType": "camera",
-                "description": "South along Sthn Mwy from Mill Rd",
-                "direction": "Southbound",
+                "description": "North along Sthn Mwy from Mill Rd",
+                "direction": "Northbound",
                 "group": "SH1-Southern",
                 "id": "610",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/610.jpg",
@@ -1884,8 +1932,8 @@
             },
             "properties": {
                 "featureType": "camera",
-                "description": "North along Waikato Exwy from Nikau Rd",
-                "direction": "Northbound",
+                "description": "South along Waikato Exwy from Nikau Rd",
+                "direction": "Southbound",
                 "group": "SH1-Southern",
                 "id": "611",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/611.jpg",
@@ -4812,8 +4860,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    172.597,
-                    -43.303
+                    172.596572,
+                    -43.303137
                 ]
             },
             "properties": {
@@ -4824,7 +4872,7 @@
                 "id": "310",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/310.jpg",
                 "name": "Rangiora North",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/310.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/310",
@@ -4839,8 +4887,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    172.597,
-                    -43.303
+                    172.596695,
+                    -43.303257
                 ]
             },
             "properties": {
@@ -6732,7 +6780,7 @@
                 "id": "673",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/673.jpg",
                 "name": "SH74 Travis Rd Roundabout",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/673.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/673",
@@ -7848,7 +7896,7 @@
                 "id": "700",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/700.jpg",
                 "name": "SH1\/SH73 Russley North",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/700.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/700",
@@ -8040,7 +8088,7 @@
                 "id": "704",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/704.jpg",
                 "name": "SH1 Wilkinsons Rd",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/704.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/704",
@@ -8307,7 +8355,7 @@
                 "id": "710",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/710.jpg",
                 "name": "SH1 Memorial Ave South",
-                "offline": "1",
+                "offline": "",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/710.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/710",
@@ -8388,102 +8436,6 @@
                         "id": "northwood-to-harewood",
                         "name": "Northwood to Harewood",
                         "totalLength": "5.493"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    172.579745,
-                    -43.562436
-                ]
-            },
-            "properties": {
-                "featureType": "camera",
-                "description": "SH75",
-                "direction": "Northbound",
-                "group": "NA",
-                "id": "726",
-                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/726.jpg",
-                "name": "SH75 Augustine Dr North",
-                "offline": "",
-                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/726.jpg",
-                "underMaintenance": false,
-                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/726",
-                "regions": [
-                    {
-                        "id": "11",
-                        "name": "Canterbury"
-                    }
-                ],
-                "ways": [
-                    {
-                        "id": "855",
-                        "name": "075"
-                    }
-                ],
-                "journeys": [
-                    {
-                        "id": "90",
-                        "name": "SH75"
-                    }
-                ],
-                "legs": [
-                    {
-                        "id": "motukarara-to-wigram",
-                        "name": "Motukarara to Wigram",
-                        "totalLength": "23.994818119684"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    172.579515,
-                    -43.562605
-                ]
-            },
-            "properties": {
-                "featureType": "camera",
-                "description": "SH75",
-                "direction": "Southbound",
-                "group": "NA",
-                "id": "727",
-                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/727.jpg",
-                "name": "SH75 Augustine Dr South",
-                "offline": "",
-                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/727.jpg",
-                "underMaintenance": false,
-                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/727",
-                "regions": [
-                    {
-                        "id": "11",
-                        "name": "Canterbury"
-                    }
-                ],
-                "ways": [
-                    {
-                        "id": "855",
-                        "name": "075"
-                    }
-                ],
-                "journeys": [
-                    {
-                        "id": "90",
-                        "name": "SH75"
-                    }
-                ],
-                "legs": [
-                    {
-                        "id": "motukarara-to-wigram",
-                        "name": "Motukarara to Wigram",
-                        "totalLength": "23.994818119684"
                     }
                 ]
             }
@@ -8724,6 +8676,246 @@
                         "id": "wigram-to-islington",
                         "name": "Wigram to Islington",
                         "totalLength": "7.371"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.579745,
+                    -43.562436
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "SH75",
+                "direction": "Northbound",
+                "group": "NA",
+                "id": "726",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/726.jpg",
+                "name": "SH75 Augustine Dr North",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/726.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/726",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "855",
+                        "name": "075"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "90",
+                        "name": "SH75"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "motukarara-to-wigram",
+                        "name": "Motukarara to Wigram",
+                        "totalLength": "23.994818119684"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.579515,
+                    -43.562605
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "SH75",
+                "direction": "Southbound",
+                "group": "NA",
+                "id": "727",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/727.jpg",
+                "name": "SH75 Augustine Dr South",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/727.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/727",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "855",
+                        "name": "075"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "90",
+                        "name": "SH75"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "motukarara-to-wigram",
+                        "name": "Motukarara to Wigram",
+                        "totalLength": "23.994818119684"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.427058,
+                    -43.5747
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "South along SH1 towards Weedons Ross Rd",
+                "direction": "Southbound",
+                "group": "SH1",
+                "id": "762",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/762.jpg",
+                "name": "SH1 Berketts Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/762.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/762",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "798",
+                        "name": "01S"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "86",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "rolleston-to-dunsandel",
+                        "name": "Rolleston to Dunsandel",
+                        "totalLength": "21.085"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.409294,
+                    -43.582268
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "South along SH1 from Weedons Rd Overbridge",
+                "direction": "Southbound",
+                "group": "SH1",
+                "id": "767",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/767.jpg",
+                "name": "SH1 Weedons Rd Interchange",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/767.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/767",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "798",
+                        "name": "01S"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "86",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "rolleston-to-dunsandel",
+                        "name": "Rolleston to Dunsandel",
+                        "totalLength": "21.085"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.447958,
+                    -43.565623
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "North along SH1 towards SH76 interchange",
+                "direction": "Northbound",
+                "group": "SH1",
+                "id": "768",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/768.jpg",
+                "name": "SH1\/SH76 Interchange",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/768.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/768",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "798",
+                        "name": "01S"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "86",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "rolleston-to-dunsandel",
+                        "name": "Rolleston to Dunsandel",
+                        "totalLength": "21.085"
                     }
                 ]
             }
@@ -9331,6 +9523,301 @@
                         "name": "Canterbury"
                     }
                 ],
+                "ways": [
+                    {
+                        "id": "868",
+                        "name": "076"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "91",
+                        "name": "SH76"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "wigram-to-islington",
+                        "name": "Wigram to Islington",
+                        "totalLength": "7.371"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.518967,
+                    -43.565319
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy towards Springs Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "763",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/763.jpg",
+                "name": "SH76 Marshs Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/763.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/763",
+                "regions": [],
+                "ways": [
+                    {
+                        "id": "868",
+                        "name": "076"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "91",
+                        "name": "SH76"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "wigram-to-islington",
+                        "name": "Wigram to Islington",
+                        "totalLength": "7.371"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.481386,
+                    -43.563769
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy towards Shands Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "764",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/764.jpg",
+                "name": "SH76 Trents Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/764.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/764",
+                "regions": [],
+                "ways": [],
+                "journeys": [],
+                "legs": []
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.490691,
+                    -43.562425
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy towards Shands Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "765",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/765.jpg",
+                "name": "SH76 Blakes Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/765.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/765",
+                "regions": [],
+                "ways": [
+                    {
+                        "id": "796",
+                        "name": "01S"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "86",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "hornby-to-rolleston",
+                        "name": "Hornby to Rolleston",
+                        "totalLength": "5.138"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.464054,
+                    -43.567772
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy towards Trents Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "766",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/766.jpg",
+                "name": "SH76 Waterholes Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/766.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/766",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "798",
+                        "name": "01S"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "86",
+                        "name": "SH1"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "rolleston-to-dunsandel",
+                        "name": "Rolleston to Dunsandel",
+                        "totalLength": "21.085"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.534649,
+                    -43.564249
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy from Halswell Junction Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "759",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/759.jpg",
+                "name": "SH76 Halswell Junction Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/759.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/759",
+                "regions": [
+                    {
+                        "id": "11",
+                        "name": "Canterbury"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "868",
+                        "name": "076"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "91",
+                        "name": "SH76"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "wigram-to-islington",
+                        "name": "Wigram to Islington",
+                        "totalLength": "7.371"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.526089,
+                    -43.564229
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "East along Sthn Mwy across Springs Rd Overbridge",
+                "direction": "Eastbound",
+                "group": "SH76",
+                "id": "760",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/760.jpg",
+                "name": "SH76 Springs Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/760.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/760",
+                "regions": [],
+                "ways": [
+                    {
+                        "id": "868",
+                        "name": "076"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "91",
+                        "name": "SH76"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "wigram-to-islington",
+                        "name": "Wigram to Islington",
+                        "totalLength": "7.371"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.502948,
+                    -43.564347
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "West along Sthn Mwy from Shands Rd Overbridge",
+                "direction": "Westbound",
+                "group": "SH76",
+                "id": "761",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/761.jpg",
+                "name": "SH76 Shands Rd",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/761.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/761",
+                "regions": [],
                 "ways": [
                     {
                         "id": "868",
@@ -10692,7 +11179,7 @@
                 "id": "656",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/656.jpg",
                 "name": "SH1 Picton South",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/656.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/656",
@@ -11364,7 +11851,7 @@
                 "id": "623",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/623.jpg",
                 "name": "SH6 Frankton",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/623.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/623",
@@ -11534,7 +12021,7 @@
                 "id": "732",
                 "imageUrl": "https:\/\/www.trafficnz.info\/camera\/732.jpg",
                 "name": "SH77 Rakaia Gorge",
-                "offline": "",
+                "offline": "1",
                 "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/732.jpg",
                 "underMaintenance": false,
                 "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/732",
@@ -13250,54 +13737,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    169.044762,
-                    -43.859501
-                ]
-            },
-            "properties": {
-                "featureType": "camera",
-                "description": "Looking North-Bound from Haast Junction to Haast River Bridge",
-                "direction": "Northbound",
-                "group": "SH6",
-                "id": "745",
-                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/745.jpg",
-                "name": "SH6 Haast Bridge",
-                "offline": "",
-                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/745.jpg",
-                "underMaintenance": false,
-                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/745",
-                "regions": [
-                    {
-                        "id": "12",
-                        "name": "West Coast"
-                    }
-                ],
-                "ways": [
-                    {
-                        "id": "940",
-                        "name": "006"
-                    }
-                ],
-                "journeys": [
-                    {
-                        "id": "100",
-                        "name": "SH6"
-                    }
-                ],
-                "legs": [
-                    {
-                        "id": "haast-to-mount-aspiring-national-park",
-                        "name": "Haast to Mount Aspiring National Park",
-                        "totalLength": "63.392"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     169.381761,
                     -44.011678
                 ]
@@ -13340,7 +13779,55 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    169.044762,
+                    -43.859501
+                ]
+            },
+            "properties": {
+                "featureType": "camera",
+                "description": "Looking North-Bound from Haast Junction to Haast River Bridge",
+                "direction": "Northbound",
+                "group": "SH6",
+                "id": "745",
+                "imageUrl": "https:\/\/www.trafficnz.info\/camera\/745.jpg",
+                "name": "SH6 Haast Bridge",
+                "offline": "",
+                "thumbUrl": "https:\/\/www.trafficnz.info\/camera\/745.jpg",
+                "underMaintenance": false,
+                "viewUrl": "https:\/\/www.trafficnz.info\/camera\/view\/745",
+                "regions": [
+                    {
+                        "id": "12",
+                        "name": "West Coast"
+                    }
+                ],
+                "ways": [
+                    {
+                        "id": "940",
+                        "name": "006"
+                    }
+                ],
+                "journeys": [
+                    {
+                        "id": "100",
+                        "name": "SH6"
+                    }
+                ],
+                "legs": [
+                    {
+                        "id": "haast-to-mount-aspiring-national-park",
+                        "name": "Haast to Mount Aspiring National Park",
+                        "totalLength": "63.392"
+                    }
+                ]
+            }
         }
     ],
-    "updatedTime": 1588035072
+    "updatedTime": 1600048963
 }
