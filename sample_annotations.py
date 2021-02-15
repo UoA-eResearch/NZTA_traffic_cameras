@@ -15,37 +15,7 @@ db = mysql.connector.connect(
 )
 cur = db.cursor()
 
-random.seed(9001)
-
-if os.path.isfile("dts_per_camID.json"):
-    with open("dts_per_camID.json") as f:
-        dts_per_camID = json.load(f)
-else:
-    cur.execute("SELECT camID, datetime FROM `detections`")
-    camIDs_and_datetimes = cur.fetchall()
-    dts_per_camID = {}
-    for camID, dt in camIDs_and_datetimes:
-        if camID not in dts_per_camID:
-            dts_per_camID[camID] = {}
-        date_str = str(dt.date())
-        if date_str not in dts_per_camID[camID]:
-            dts_per_camID[camID][date_str] = []
-        dts_per_camID[camID][date_str].append(str(dt))
-
-    with open("dts_per_camID.json", "w") as f:
-        json.dump(dts_per_camID, f)
-
-where = []
-for camID in dts_per_camID:
-    dts_for_camID = []
-    for day, dts in dts_per_camID[camID].items():
-        if len(dts) > 2:
-            dts = random.sample(dts, 2)
-        for dt in dts:
-            where.append(f"({camID},'{str(dt)}')")
-
-where = ",".join(where)
-sql = f"SELECT camID,datetime,detections FROM detections WHERE (camID,datetime) IN ({where})"
+sql = f"SELECT camId,ANY_VALUE(datetime),ANY_VALUE(detections) FROM `detections` GROUP BY camId,DATE(datetime)"
 cur.execute(sql)
 detections = cur.fetchall()
 
