@@ -58,11 +58,9 @@ setup_one_gpu()
 import silence_tensorflow.auto
 
 import tensorflow as tf
-
-oldinit = tf.Session.__init__
-def myinit(session_object, target='', graph=None, config=None):
-    #print("Intercepted!")
-    config = tf.ConfigProto()
-    config.gpu_options.allow_growth = True
-    oldinit(session_object, target='', graph=None, config=config)
-tf.Session.__init__ = myinit
+physical_devices = tf.config.list_physical_devices('GPU')
+try:
+  tf.config.experimental.set_memory_growth(physical_devices[0], True)
+except:
+  # Invalid device or cannot modify virtual devices once initialized.
+  pass

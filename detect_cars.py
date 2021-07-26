@@ -21,7 +21,7 @@ cur = db.cursor()
 
 detector = ObjectDetection()
 detector.setModelTypeAsRetinaNet()
-detector.setModelPath("./models/resnet50_coco_best_v2.0.1.h5")
+detector.setModelPath("./models/resnet50_coco_best_v2.1.0.h5")
 detector.loadModel()
 #print("Detector ready")
 custom_objects = detector.CustomObjects(car=True, motorcycle=True, bus=True, truck=True)
